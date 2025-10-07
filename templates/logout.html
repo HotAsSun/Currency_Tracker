@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card shadow p-4 text-center" style="max-width: 400px; width: 100%; border-radius: 20px;">
+        <h3 class="mb-3 text-danger">Logout</h3>
+        <p class="text-muted">Are you sure you want to log out, {{ current_user.username }}?</p>
+        
+        <div class="d-flex justify-content-center gap-3 mt-4">
+            <form method="POST" action="{{ url_for('confirm_logout') }}">
+                <button type="submit" class="btn btn-danger px-4">Yes, Log Out</button>
+            </form>
+            <a href="{{ url_for('home') }}" class="btn btn-secondary px-4">Cancel</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

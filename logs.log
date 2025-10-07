@@ -1,0 +1,372 @@
+2025-10-07 09:49:34,918 [INFO] connected None
+2025-10-07 09:51:24,475 [INFO] connected None
+2025-10-07 09:52:19,746 [INFO] connected None
+2025-10-07 10:21:21,626 [INFO] connected 200
+2025-10-07 10:23:37,556 [INFO] connected 200
+2025-10-07 10:44:58,772 [INFO] connected 200
+2025-10-07 10:46:15,955 [INFO] connected 200
+2025-10-07 10:47:52,149 [INFO] connected 200
+2025-10-07 10:58:47,678 [INFO] connected 200
+2025-10-07 10:59:39,721 [INFO] Connected 200
+2025-10-07 10:59:39,772 [INFO] Added currency: sekee (🪙)
+2025-10-07 11:00:12,458 [INFO] Connected 200
+2025-10-07 11:00:12,468 [INFO] Currency already exists: sekee
+2025-10-07 11:04:44,314 [INFO] Connected 200
+2025-10-07 11:04:44,348 [INFO] Currency already exists: sekee
+2025-10-07 11:04:46,868 [INFO] Connected 200
+2025-10-07 11:04:46,895 [INFO] Currency already exists: sekee
+2025-10-07 11:05:35,804 [INFO] Connected 200
+2025-10-07 11:05:35,830 [INFO] Currency already exists: sekee
+2025-10-07 11:05:35,861 [INFO] Added currency_info: 1,125,050,000 (2025-10-06 00:00:00)
+2025-10-07 11:05:35,884 [INFO] Added currency: gold-18 (🥇)
+2025-10-07 11:05:35,913 [INFO] Added currency_info: 106130000 (2025-10-07 10:32:19)
+2025-10-07 11:05:35,932 [INFO] Added currency: dollar ($)
+2025-10-07 11:05:35,957 [INFO] Added currency_info: 1,111,600 (2025-10-06 00:00:00)
+2025-10-07 11:05:35,977 [INFO] Added currency: euro (€)
+2025-10-07 11:05:35,998 [INFO] Added currency_info: 1,301,500 (2025-10-06 00:00:00)
+2025-10-07 11:57:28,170 [INFO] Connected 200
+2025-10-07 11:57:28,188 [INFO] Currency already exists: sekee
+2025-10-07 11:57:28,208 [INFO] Added currency_info: 1,120,050,000 (2025-10-07 11:32:24)
+2025-10-07 11:57:28,209 [INFO] Currency already exists: gold-18
+2025-10-07 11:57:28,225 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 11:57:28,226 [INFO] Currency already exists: dollar
+2025-10-07 11:57:28,242 [INFO] Added currency_info: 1,113,400 (2025-10-07 11:32:24)
+2025-10-07 11:57:28,244 [INFO] Currency already exists: euro
+2025-10-07 11:57:28,260 [INFO] Added currency_info: 1,300,700 (2025-10-07 11:32:24)
+2025-10-07 11:57:28,261 [INFO] Sleeping for 30 minutes...
+2025-10-07 11:57:29,591 [INFO] Connected 200
+2025-10-07 11:57:29,600 [INFO] Currency already exists: sekee
+2025-10-07 11:57:29,620 [INFO] Added currency_info: 1,120,050,000 (2025-10-07 11:32:24)
+2025-10-07 11:57:29,623 [INFO] Currency already exists: gold-18
+2025-10-07 11:57:29,650 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 11:57:29,653 [INFO] Currency already exists: dollar
+2025-10-07 11:57:29,673 [INFO] Added currency_info: 1,113,400 (2025-10-07 11:32:24)
+2025-10-07 11:57:29,677 [INFO] Currency already exists: euro
+2025-10-07 11:57:29,697 [INFO] Added currency_info: 1,300,700 (2025-10-07 11:32:24)
+2025-10-07 11:57:29,701 [INFO] Sleeping for 30 minutes...
+2025-10-07 11:57:31,045 [INFO] Connected 200
+2025-10-07 11:57:31,054 [INFO] Currency already exists: sekee
+2025-10-07 11:57:31,075 [INFO] Added currency_info: 1,120,050,000 (2025-10-07 11:32:24)
+2025-10-07 11:57:31,078 [INFO] Currency already exists: gold-18
+2025-10-07 11:57:31,100 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 11:57:31,105 [INFO] Currency already exists: dollar
+2025-10-07 11:57:31,128 [INFO] Added currency_info: 1,113,400 (2025-10-07 11:32:24)
+2025-10-07 11:57:31,133 [INFO] Currency already exists: euro
+2025-10-07 11:57:31,169 [INFO] Added currency_info: 1,300,700 (2025-10-07 11:32:24)
+2025-10-07 11:57:31,180 [INFO] Sleeping for 30 minutes...
+2025-10-07 11:57:32,497 [INFO] Connected 200
+2025-10-07 11:57:32,505 [INFO] Currency already exists: sekee
+2025-10-07 11:57:32,525 [INFO] Added currency_info: 1,120,050,000 (2025-10-07 11:32:24)
+2025-10-07 11:57:32,528 [INFO] Currency already exists: gold-18
+2025-10-07 11:57:32,548 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 11:57:32,551 [INFO] Currency already exists: dollar
+2025-10-07 11:57:32,570 [INFO] Added currency_info: 1,113,400 (2025-10-07 11:32:24)
+2025-10-07 11:57:32,574 [INFO] Currency already exists: euro
+2025-10-07 11:57:32,603 [INFO] Added currency_info: 1,300,700 (2025-10-07 11:32:24)
+2025-10-07 11:57:32,608 [INFO] Sleeping for 30 minutes...
+2025-10-07 11:57:33,937 [INFO] Connected 200
+2025-10-07 11:57:33,946 [INFO] Currency already exists: sekee
+2025-10-07 11:57:33,965 [INFO] Added currency_info: 1,120,050,000 (2025-10-07 11:32:24)
+2025-10-07 11:57:33,968 [INFO] Currency already exists: gold-18
+2025-10-07 11:57:33,989 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 11:57:33,992 [INFO] Currency already exists: dollar
+2025-10-07 11:57:34,013 [INFO] Added currency_info: 1,113,400 (2025-10-07 11:32:24)
+2025-10-07 11:57:34,016 [INFO] Currency already exists: euro
+2025-10-07 11:57:34,042 [INFO] Added currency_info: 1,300,700 (2025-10-07 11:32:24)
+2025-10-07 11:57:34,046 [INFO] Sleeping for 30 minutes...
+2025-10-07 11:57:35,377 [INFO] Connected 200
+2025-10-07 11:57:35,386 [INFO] Currency already exists: sekee
+2025-10-07 11:57:35,407 [INFO] Added currency_info: 1,120,050,000 (2025-10-07 11:32:24)
+2025-10-07 11:57:35,411 [INFO] Currency already exists: gold-18
+2025-10-07 11:57:35,432 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 11:57:35,435 [INFO] Currency already exists: dollar
+2025-10-07 11:57:35,457 [INFO] Added currency_info: 1,113,400 (2025-10-07 11:32:24)
+2025-10-07 11:57:35,462 [INFO] Currency already exists: euro
+2025-10-07 11:57:35,483 [INFO] Added currency_info: 1,300,700 (2025-10-07 11:32:24)
+2025-10-07 11:57:35,488 [INFO] Sleeping for 30 minutes...
+2025-10-07 11:57:36,785 [INFO] Connected 200
+2025-10-07 11:57:36,795 [INFO] Currency already exists: sekee
+2025-10-07 11:57:36,820 [INFO] Added currency_info: 1,120,050,000 (2025-10-07 11:32:24)
+2025-10-07 11:57:36,824 [INFO] Currency already exists: gold-18
+2025-10-07 11:57:36,845 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 11:57:36,850 [INFO] Currency already exists: dollar
+2025-10-07 11:57:36,872 [INFO] Added currency_info: 1,113,400 (2025-10-07 11:32:24)
+2025-10-07 11:57:36,875 [INFO] Currency already exists: euro
+2025-10-07 11:57:36,896 [INFO] Added currency_info: 1,300,700 (2025-10-07 11:32:24)
+2025-10-07 11:57:36,900 [INFO] Sleeping for 30 minutes...
+2025-10-07 11:57:38,235 [INFO] Connected 200
+2025-10-07 11:57:38,245 [INFO] Currency already exists: sekee
+2025-10-07 11:57:38,266 [INFO] Added currency_info: 1,120,050,000 (2025-10-07 11:32:24)
+2025-10-07 11:57:38,269 [INFO] Currency already exists: gold-18
+2025-10-07 11:57:38,291 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 11:57:38,294 [INFO] Currency already exists: dollar
+2025-10-07 11:57:38,314 [INFO] Added currency_info: 1,113,400 (2025-10-07 11:32:24)
+2025-10-07 11:57:38,318 [INFO] Currency already exists: euro
+2025-10-07 11:57:38,339 [INFO] Added currency_info: 1,300,700 (2025-10-07 11:32:24)
+2025-10-07 11:57:38,346 [INFO] Sleeping for 30 minutes...
+2025-10-07 11:57:39,692 [INFO] Connected 200
+2025-10-07 11:57:39,703 [INFO] Currency already exists: sekee
+2025-10-07 11:57:39,725 [INFO] Added currency_info: 1,120,050,000 (2025-10-07 11:32:24)
+2025-10-07 11:57:39,729 [INFO] Currency already exists: gold-18
+2025-10-07 11:57:39,751 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 11:57:39,754 [INFO] Currency already exists: dollar
+2025-10-07 11:57:39,775 [INFO] Added currency_info: 1,113,400 (2025-10-07 11:32:24)
+2025-10-07 11:57:39,780 [INFO] Currency already exists: euro
+2025-10-07 11:57:39,802 [INFO] Added currency_info: 1,300,700 (2025-10-07 11:32:24)
+2025-10-07 11:57:39,806 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:22:55,300 [INFO] Connected 200
+2025-10-07 12:22:55,362 [INFO] Added currency: sekee (🪙)
+2025-10-07 12:24:44,922 [INFO] Connected 200
+2025-10-07 12:24:44,963 [INFO] Currency already exists: sekee
+2025-10-07 12:24:44,981 [INFO] Added currency_info: 1120050000 (2025-10-07 11:32:24)
+2025-10-07 12:24:44,998 [INFO] Added currency: gold-18 (🥇)
+2025-10-07 12:24:45,013 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 12:24:45,025 [INFO] Added currency: dollar ($)
+2025-10-07 12:24:45,037 [INFO] Added currency_info: 1113400 (2025-10-07 11:32:24)
+2025-10-07 12:24:45,052 [INFO] Added currency: euro (€)
+2025-10-07 12:24:45,064 [INFO] Added currency_info: 1300700 (2025-10-07 11:32:24)
+2025-10-07 12:24:45,068 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:24:46,373 [INFO] Connected 200
+2025-10-07 12:24:46,382 [INFO] Currency already exists: sekee
+2025-10-07 12:24:46,392 [INFO] Added currency_info: 1120050000 (2025-10-07 11:32:24)
+2025-10-07 12:24:46,396 [INFO] Currency already exists: gold-18
+2025-10-07 12:24:46,406 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 12:24:46,410 [INFO] Currency already exists: dollar
+2025-10-07 12:24:46,421 [INFO] Added currency_info: 1113400 (2025-10-07 11:32:24)
+2025-10-07 12:24:46,425 [INFO] Currency already exists: euro
+2025-10-07 12:24:46,438 [INFO] Added currency_info: 1300700 (2025-10-07 11:32:24)
+2025-10-07 12:24:46,443 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:24:47,785 [INFO] Connected 200
+2025-10-07 12:24:47,795 [INFO] Currency already exists: sekee
+2025-10-07 12:24:47,805 [INFO] Added currency_info: 1120050000 (2025-10-07 11:32:24)
+2025-10-07 12:24:47,809 [INFO] Currency already exists: gold-18
+2025-10-07 12:24:47,820 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 12:24:47,824 [INFO] Currency already exists: dollar
+2025-10-07 12:24:47,834 [INFO] Added currency_info: 1113400 (2025-10-07 11:32:24)
+2025-10-07 12:24:47,839 [INFO] Currency already exists: euro
+2025-10-07 12:24:47,857 [INFO] Added currency_info: 1300700 (2025-10-07 11:32:24)
+2025-10-07 12:24:47,860 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:24:49,201 [INFO] Connected 200
+2025-10-07 12:24:49,211 [INFO] Currency already exists: sekee
+2025-10-07 12:24:49,220 [INFO] Added currency_info: 1120050000 (2025-10-07 11:32:24)
+2025-10-07 12:24:49,225 [INFO] Currency already exists: gold-18
+2025-10-07 12:24:49,236 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 12:24:49,240 [INFO] Currency already exists: dollar
+2025-10-07 12:24:49,250 [INFO] Added currency_info: 1113400 (2025-10-07 11:32:24)
+2025-10-07 12:24:49,254 [INFO] Currency already exists: euro
+2025-10-07 12:24:49,265 [INFO] Added currency_info: 1300700 (2025-10-07 11:32:24)
+2025-10-07 12:24:49,269 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:24:50,600 [INFO] Connected 200
+2025-10-07 12:24:50,610 [INFO] Currency already exists: sekee
+2025-10-07 12:24:50,620 [INFO] Added currency_info: 1120050000 (2025-10-07 11:32:24)
+2025-10-07 12:24:50,624 [INFO] Currency already exists: gold-18
+2025-10-07 12:24:50,634 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 12:24:50,639 [INFO] Currency already exists: dollar
+2025-10-07 12:24:50,650 [INFO] Added currency_info: 1113400 (2025-10-07 11:32:24)
+2025-10-07 12:24:50,654 [INFO] Currency already exists: euro
+2025-10-07 12:24:50,667 [INFO] Added currency_info: 1300700 (2025-10-07 11:32:24)
+2025-10-07 12:24:50,671 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:24:52,046 [INFO] Connected 200
+2025-10-07 12:24:52,057 [INFO] Currency already exists: sekee
+2025-10-07 12:24:52,073 [INFO] Added currency_info: 1120050000 (2025-10-07 11:32:24)
+2025-10-07 12:24:52,077 [INFO] Currency already exists: gold-18
+2025-10-07 12:24:52,088 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 12:24:52,092 [INFO] Currency already exists: dollar
+2025-10-07 12:24:52,103 [INFO] Added currency_info: 1113400 (2025-10-07 11:32:24)
+2025-10-07 12:24:52,107 [INFO] Currency already exists: euro
+2025-10-07 12:24:52,118 [INFO] Added currency_info: 1300700 (2025-10-07 11:32:24)
+2025-10-07 12:24:52,122 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:24:53,411 [INFO] Connected 200
+2025-10-07 12:24:53,418 [INFO] Currency already exists: sekee
+2025-10-07 12:24:53,424 [INFO] Added currency_info: 1120050000 (2025-10-07 11:32:24)
+2025-10-07 12:24:53,426 [INFO] Currency already exists: gold-18
+2025-10-07 12:24:53,434 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 12:24:53,436 [INFO] Currency already exists: dollar
+2025-10-07 12:24:53,443 [INFO] Added currency_info: 1113400 (2025-10-07 11:32:24)
+2025-10-07 12:24:53,445 [INFO] Currency already exists: euro
+2025-10-07 12:24:53,451 [INFO] Added currency_info: 1300700 (2025-10-07 11:32:24)
+2025-10-07 12:24:53,454 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:24:54,754 [INFO] Connected 200
+2025-10-07 12:24:54,760 [INFO] Currency already exists: sekee
+2025-10-07 12:24:54,766 [INFO] Added currency_info: 1120050000 (2025-10-07 11:32:24)
+2025-10-07 12:24:54,768 [INFO] Currency already exists: gold-18
+2025-10-07 12:24:54,775 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 12:24:54,777 [INFO] Currency already exists: dollar
+2025-10-07 12:24:54,784 [INFO] Added currency_info: 1113400 (2025-10-07 11:32:24)
+2025-10-07 12:24:54,786 [INFO] Currency already exists: euro
+2025-10-07 12:24:54,797 [INFO] Added currency_info: 1300700 (2025-10-07 11:32:24)
+2025-10-07 12:24:54,800 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:24:56,078 [INFO] Connected 200
+2025-10-07 12:24:56,087 [INFO] Currency already exists: sekee
+2025-10-07 12:24:56,096 [INFO] Added currency_info: 1120050000 (2025-10-07 11:32:24)
+2025-10-07 12:24:56,100 [INFO] Currency already exists: gold-18
+2025-10-07 12:24:56,112 [INFO] Added currency_info: 106160000 (2025-10-07 11:32:22)
+2025-10-07 12:24:56,115 [INFO] Currency already exists: dollar
+2025-10-07 12:24:56,125 [INFO] Added currency_info: 1113400 (2025-10-07 11:32:24)
+2025-10-07 12:24:56,129 [INFO] Currency already exists: euro
+2025-10-07 12:24:56,139 [INFO] Added currency_info: 1300700 (2025-10-07 11:32:24)
+2025-10-07 12:24:56,144 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:35:03,874 [INFO] Connected 200
+2025-10-07 12:35:03,935 [INFO] Currency already exists: sekee
+2025-10-07 12:35:03,963 [INFO] Added currency_info: 1135100000 (2025-10-07 12:32:29)
+2025-10-07 12:35:03,968 [INFO] Currency already exists: gold-18
+2025-10-07 12:35:03,980 [INFO] Added currency_info: 107890000 (2025-10-07 12:32:29)
+2025-10-07 12:35:03,985 [INFO] Currency already exists: dollar
+2025-10-07 12:35:03,995 [INFO] Added currency_info: 1122350 (2025-10-07 12:32:36)
+2025-10-07 12:35:03,999 [INFO] Currency already exists: euro
+2025-10-07 12:35:04,014 [INFO] Added currency_info: 1310000 (2025-10-07 12:32:36)
+2025-10-07 12:35:04,019 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:35:05,339 [INFO] Connected 200
+2025-10-07 12:35:05,349 [INFO] Currency already exists: sekee
+2025-10-07 12:35:05,360 [INFO] Added currency_info: 1135100000 (2025-10-07 12:32:29)
+2025-10-07 12:35:05,364 [INFO] Currency already exists: gold-18
+2025-10-07 12:35:05,375 [INFO] Added currency_info: 107890000 (2025-10-07 12:32:29)
+2025-10-07 12:35:05,379 [INFO] Currency already exists: dollar
+2025-10-07 12:35:05,391 [INFO] Added currency_info: 1122350 (2025-10-07 12:32:36)
+2025-10-07 12:35:05,395 [INFO] Currency already exists: euro
+2025-10-07 12:35:05,411 [INFO] Added currency_info: 1310000 (2025-10-07 12:32:36)
+2025-10-07 12:35:05,415 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:35:06,787 [INFO] Connected 200
+2025-10-07 12:35:06,798 [INFO] Currency already exists: sekee
+2025-10-07 12:35:06,809 [INFO] Added currency_info: 1135100000 (2025-10-07 12:32:29)
+2025-10-07 12:35:06,813 [INFO] Currency already exists: gold-18
+2025-10-07 12:35:06,822 [INFO] Added currency_info: 107890000 (2025-10-07 12:32:29)
+2025-10-07 12:35:06,826 [INFO] Currency already exists: dollar
+2025-10-07 12:35:06,838 [INFO] Added currency_info: 1122350 (2025-10-07 12:32:36)
+2025-10-07 12:35:06,842 [INFO] Currency already exists: euro
+2025-10-07 12:35:06,854 [INFO] Added currency_info: 1310000 (2025-10-07 12:32:36)
+2025-10-07 12:35:06,857 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:35:08,203 [INFO] Connected 200
+2025-10-07 12:35:08,216 [INFO] Currency already exists: sekee
+2025-10-07 12:35:08,231 [INFO] Added currency_info: 1135100000 (2025-10-07 12:32:29)
+2025-10-07 12:35:08,235 [INFO] Currency already exists: gold-18
+2025-10-07 12:35:08,246 [INFO] Added currency_info: 107890000 (2025-10-07 12:32:29)
+2025-10-07 12:35:08,250 [INFO] Currency already exists: dollar
+2025-10-07 12:35:08,261 [INFO] Added currency_info: 1122350 (2025-10-07 12:32:36)
+2025-10-07 12:35:08,265 [INFO] Currency already exists: euro
+2025-10-07 12:35:08,275 [INFO] Added currency_info: 1310000 (2025-10-07 12:32:36)
+2025-10-07 12:35:08,279 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:35:09,612 [INFO] Connected 200
+2025-10-07 12:35:09,622 [INFO] Currency already exists: sekee
+2025-10-07 12:35:09,632 [INFO] Added currency_info: 1135100000 (2025-10-07 12:32:29)
+2025-10-07 12:35:09,636 [INFO] Currency already exists: gold-18
+2025-10-07 12:35:09,647 [INFO] Added currency_info: 107890000 (2025-10-07 12:32:29)
+2025-10-07 12:35:09,651 [INFO] Currency already exists: dollar
+2025-10-07 12:35:09,662 [INFO] Added currency_info: 1122350 (2025-10-07 12:32:36)
+2025-10-07 12:35:09,666 [INFO] Currency already exists: euro
+2025-10-07 12:35:09,677 [INFO] Added currency_info: 1310000 (2025-10-07 12:32:36)
+2025-10-07 12:35:09,681 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:50:30,240 [INFO] Connected 200
+2025-10-07 12:50:30,282 [INFO] Currency already exists: sekee
+2025-10-07 12:50:47,472 [INFO] Connected 200
+2025-10-07 12:50:47,516 [INFO] Currency already exists: sekee
+2025-10-07 12:51:01,931 [INFO] Connected 200
+2025-10-07 12:51:01,972 [INFO] Currency already exists: sekee
+2025-10-07 12:51:01,986 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 12:32:29
+2025-10-07 12:51:01,990 [INFO] Currency already exists: gold-18
+2025-10-07 12:51:01,997 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 12:32:29
+2025-10-07 12:51:02,000 [INFO] Currency already exists: dollar
+2025-10-07 12:51:02,007 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 12:32:36
+2025-10-07 12:51:02,010 [INFO] Currency already exists: euro
+2025-10-07 12:51:02,017 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 12:32:36
+2025-10-07 12:51:02,022 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:51:03,354 [INFO] Connected 200
+2025-10-07 12:51:03,365 [INFO] Currency already exists: sekee
+2025-10-07 12:51:03,372 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 12:32:29
+2025-10-07 12:51:03,375 [INFO] Currency already exists: gold-18
+2025-10-07 12:51:03,385 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 12:32:29
+2025-10-07 12:51:03,388 [INFO] Currency already exists: dollar
+2025-10-07 12:51:03,396 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 12:32:36
+2025-10-07 12:51:03,400 [INFO] Currency already exists: euro
+2025-10-07 12:51:03,410 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 12:32:36
+2025-10-07 12:51:03,415 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:51:04,733 [INFO] Connected 200
+2025-10-07 12:51:04,746 [INFO] Currency already exists: sekee
+2025-10-07 12:51:04,754 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 12:32:29
+2025-10-07 12:51:04,758 [INFO] Currency already exists: gold-18
+2025-10-07 12:51:04,766 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 12:32:29
+2025-10-07 12:51:04,770 [INFO] Currency already exists: dollar
+2025-10-07 12:51:04,778 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 12:32:36
+2025-10-07 12:51:04,782 [INFO] Currency already exists: euro
+2025-10-07 12:51:04,790 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 12:32:36
+2025-10-07 12:51:04,796 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:51:06,140 [INFO] Connected 200
+2025-10-07 12:51:06,153 [INFO] Currency already exists: sekee
+2025-10-07 12:51:06,160 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 12:32:29
+2025-10-07 12:51:06,164 [INFO] Currency already exists: gold-18
+2025-10-07 12:51:06,171 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 12:32:29
+2025-10-07 12:51:06,175 [INFO] Currency already exists: dollar
+2025-10-07 12:51:06,183 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 12:32:36
+2025-10-07 12:51:06,187 [INFO] Currency already exists: euro
+2025-10-07 12:51:06,194 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 12:32:36
+2025-10-07 12:51:06,200 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:51:07,535 [INFO] Connected 200
+2025-10-07 12:51:07,544 [INFO] Currency already exists: sekee
+2025-10-07 12:51:07,551 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 12:32:29
+2025-10-07 12:51:07,554 [INFO] Currency already exists: gold-18
+2025-10-07 12:51:07,562 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 12:32:29
+2025-10-07 12:51:07,565 [INFO] Currency already exists: dollar
+2025-10-07 12:51:07,572 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 12:32:36
+2025-10-07 12:51:07,576 [INFO] Currency already exists: euro
+2025-10-07 12:51:07,583 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 12:32:36
+2025-10-07 12:51:07,588 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:51:08,932 [INFO] Connected 200
+2025-10-07 12:51:08,942 [INFO] Currency already exists: sekee
+2025-10-07 12:51:08,949 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 12:32:29
+2025-10-07 12:51:08,952 [INFO] Currency already exists: gold-18
+2025-10-07 12:51:08,959 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 12:32:29
+2025-10-07 12:51:08,964 [INFO] Currency already exists: dollar
+2025-10-07 12:51:08,973 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 12:32:36
+2025-10-07 12:51:08,977 [INFO] Currency already exists: euro
+2025-10-07 12:51:08,985 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 12:32:36
+2025-10-07 12:51:08,990 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:51:10,321 [INFO] Connected 200
+2025-10-07 12:51:10,333 [INFO] Currency already exists: sekee
+2025-10-07 12:51:10,340 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 12:32:29
+2025-10-07 12:51:10,344 [INFO] Currency already exists: gold-18
+2025-10-07 12:51:10,351 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 12:32:29
+2025-10-07 12:51:10,355 [INFO] Currency already exists: dollar
+2025-10-07 12:51:10,363 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 12:32:36
+2025-10-07 12:51:10,367 [INFO] Currency already exists: euro
+2025-10-07 12:51:10,373 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 12:32:36
+2025-10-07 12:51:10,379 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:51:11,723 [INFO] Connected 200
+2025-10-07 12:51:11,733 [INFO] Currency already exists: sekee
+2025-10-07 12:51:11,739 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 12:32:29
+2025-10-07 12:51:11,743 [INFO] Currency already exists: gold-18
+2025-10-07 12:51:11,751 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 12:32:29
+2025-10-07 12:51:11,755 [INFO] Currency already exists: dollar
+2025-10-07 12:51:11,763 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 12:32:36
+2025-10-07 12:51:11,767 [INFO] Currency already exists: euro
+2025-10-07 12:51:11,775 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 12:32:36
+2025-10-07 12:51:11,780 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:51:13,070 [INFO] Connected 200
+2025-10-07 12:51:13,074 [INFO] Currency already exists: sekee
+2025-10-07 12:51:13,076 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 12:32:29
+2025-10-07 12:51:13,077 [INFO] Currency already exists: gold-18
+2025-10-07 12:51:13,080 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 12:32:29
+2025-10-07 12:51:13,082 [INFO] Currency already exists: dollar
+2025-10-07 12:51:13,085 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 12:32:36
+2025-10-07 12:51:13,087 [INFO] Currency already exists: euro
+2025-10-07 12:51:13,091 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 12:32:36
+2025-10-07 12:51:13,094 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:51:14,375 [INFO] Connected 200
+2025-10-07 12:51:14,379 [INFO] Currency already exists: sekee
+2025-10-07 12:51:14,381 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 12:32:29
+2025-10-07 12:51:14,382 [INFO] Currency already exists: gold-18
+2025-10-07 12:51:14,385 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 12:32:29
+2025-10-07 12:51:14,387 [INFO] Currency already exists: dollar
+2025-10-07 12:51:14,391 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 12:32:36
+2025-10-07 12:51:14,393 [INFO] Currency already exists: euro
+2025-10-07 12:51:14,396 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 12:32:36
+2025-10-07 12:51:14,398 [INFO] Sleeping for 30 minutes...
+2025-10-07 12:51:15,687 [INFO] Connected 200
+2025-10-07 12:51:15,696 [INFO] Currency already exists: sekee
+2025-10-07 12:51:15,702 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 12:32:29
+2025-10-07 12:51:15,706 [INFO] Currency already exists: gold-18
+2025-10-07 12:51:15,712 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 12:32:29
+2025-10-07 12:51:15,714 [INFO] Currency already exists: dollar
+2025-10-07 12:51:15,718 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 12:32:36
+2025-10-07 12:51:15,721 [INFO] Currency already exists: euro
+2025-10-07 12:51:15,725 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 12:32:36
+2025-10-07 12:51:15,728 [INFO] Sleeping for 30 minutes...

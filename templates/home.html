@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">Currency Prices</h1>
+    <table class="table table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Symbol</th>
+                <th>Price</th>
+                <th>Change Rate (%)</th>
+                <th>Last Updated</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for c in currency_data %}
+            <tr>
+                <td>{{ c.name }}</td>
+                <td>{{ c.symbol }}</td>
+                <td style="color: {{ c.color }};">
+                    {{ "{:,}".format(c.price) }} {{ c.arrow }}
+                </td>
+                <td>{{ c.change_rate }}%</td>
+
+                <td>
+                    {% if c.update_time is not none %}
+                        {{ c.update_time.strftime("%Y-%m-%d %H:%M:%S") }}
+                    {% else %}
+                        N/A
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

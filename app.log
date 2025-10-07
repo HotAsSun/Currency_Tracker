@@ -1,0 +1,440 @@
+2025-10-07 13:48:13,625 [INFO] Application started
+2025-10-07 13:48:13,648 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 13:48:13,648 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 13:48:13,649 [INFO]  * Restarting with stat
+2025-10-07 13:48:14,135 [INFO] Application started
+2025-10-07 13:48:14,155 [WARNING]  * Debugger is active!
+2025-10-07 13:48:14,157 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 13:48:21,605 [INFO] 127.0.0.1 - - [07/Oct/2025 13:48:21] "GET / HTTP/1.1" 200 -
+2025-10-07 13:48:23,670 [INFO] 127.0.0.1 - - [07/Oct/2025 13:48:23] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2025-10-07 13:48:23,730 [INFO] 127.0.0.1 - - [07/Oct/2025 13:48:23] "GET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-10-07 13:48:23,731 [INFO] 127.0.0.1 - - [07/Oct/2025 13:48:23] "GET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-10-07 13:48:23,807 [INFO] 127.0.0.1 - - [07/Oct/2025 13:48:23] "GET /registration?__debugger__=yes&cmd=resource&f=console.png&s=C4pzHY01LRLg6sTjJ6mi HTTP/1.1" 200 -
+2025-10-07 13:48:24,098 [INFO] 127.0.0.1 - - [07/Oct/2025 13:48:24] "GET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-10-07 13:48:37,340 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/app.py', reloading
+2025-10-07 13:48:37,464 [INFO]  * Restarting with stat
+2025-10-07 13:48:46,573 [INFO] Application started
+2025-10-07 13:48:46,599 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 13:48:46,599 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 13:48:46,599 [INFO]  * Restarting with stat
+2025-10-07 13:48:47,013 [INFO] Application started
+2025-10-07 13:48:47,033 [WARNING]  * Debugger is active!
+2025-10-07 13:48:47,035 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 13:48:48,545 [INFO] 127.0.0.1 - - [07/Oct/2025 13:48:48] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2025-10-07 13:48:48,592 [INFO] 127.0.0.1 - - [07/Oct/2025 13:48:48] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 13:48:48,593 [INFO] 127.0.0.1 - - [07/Oct/2025 13:48:48] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 13:48:48,923 [INFO] 127.0.0.1 - - [07/Oct/2025 13:48:48] "GET /registration?__debugger__=yes&cmd=resource&f=console.png&s=HqgnosaPb5KoK9lP0Scq HTTP/1.1" 200 -
+2025-10-07 13:48:49,537 [INFO] 127.0.0.1 - - [07/Oct/2025 13:48:49] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-07 13:49:29,539 [INFO] Application started
+2025-10-07 13:49:29,562 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 13:49:29,562 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 13:49:29,563 [INFO]  * Restarting with stat
+2025-10-07 13:49:29,986 [INFO] Application started
+2025-10-07 13:49:30,004 [WARNING]  * Debugger is active!
+2025-10-07 13:49:30,007 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 13:49:32,622 [INFO] 127.0.0.1 - - [07/Oct/2025 13:49:32] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2025-10-07 13:49:32,668 [INFO] 127.0.0.1 - - [07/Oct/2025 13:49:32] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 13:49:32,686 [INFO] 127.0.0.1 - - [07/Oct/2025 13:49:32] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 13:49:32,774 [INFO] 127.0.0.1 - - [07/Oct/2025 13:49:32] "GET /registration?__debugger__=yes&cmd=resource&f=console.png&s=mxdmv5CqJyoIxnWn7QUm HTTP/1.1" 200 -
+2025-10-07 13:49:34,948 [INFO] 127.0.0.1 - - [07/Oct/2025 13:49:34] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2025-10-07 13:49:34,970 [INFO] 127.0.0.1 - - [07/Oct/2025 13:49:34] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 13:49:34,972 [INFO] 127.0.0.1 - - [07/Oct/2025 13:49:34] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 13:49:35,072 [INFO] 127.0.0.1 - - [07/Oct/2025 13:49:35] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png&s=mxdmv5CqJyoIxnWn7QUm HTTP/1.1[0m" 304 -
+2025-10-07 13:51:04,649 [INFO] Application started
+2025-10-07 13:51:04,674 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 13:51:04,674 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 13:51:04,674 [INFO]  * Restarting with stat
+2025-10-07 13:51:05,080 [INFO] Application started
+2025-10-07 13:51:05,097 [WARNING]  * Debugger is active!
+2025-10-07 13:51:05,100 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 13:51:07,437 [INFO] 127.0.0.1 - - [07/Oct/2025 13:51:07] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2025-10-07 13:51:07,514 [INFO] 127.0.0.1 - - [07/Oct/2025 13:51:07] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 13:51:07,520 [INFO] 127.0.0.1 - - [07/Oct/2025 13:51:07] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 13:51:07,655 [INFO] 127.0.0.1 - - [07/Oct/2025 13:51:07] "GET /registration?__debugger__=yes&cmd=resource&f=console.png&s=fDIrN3t3wJSRLrsEsRz8 HTTP/1.1" 200 -
+2025-10-07 13:53:50,821 [INFO] Application started
+2025-10-07 13:53:50,845 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 13:53:50,845 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 13:53:50,845 [INFO]  * Restarting with stat
+2025-10-07 13:53:51,283 [INFO] Application started
+2025-10-07 13:53:51,305 [WARNING]  * Debugger is active!
+2025-10-07 13:53:51,307 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 13:53:56,730 [INFO] 127.0.0.1 - - [07/Oct/2025 13:53:56] "GET / HTTP/1.1" 200 -
+2025-10-07 13:54:02,104 [INFO] 127.0.0.1 - - [07/Oct/2025 13:54:02] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2025-10-07 13:54:02,145 [INFO] 127.0.0.1 - - [07/Oct/2025 13:54:02] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 13:54:02,146 [INFO] 127.0.0.1 - - [07/Oct/2025 13:54:02] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 13:54:02,228 [INFO] 127.0.0.1 - - [07/Oct/2025 13:54:02] "GET /registration?__debugger__=yes&cmd=resource&f=console.png&s=qZaZfOC4U31pdktz3PYv HTTP/1.1" 200 -
+2025-10-07 13:56:56,714 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/app.py', reloading
+2025-10-07 13:56:56,847 [INFO]  * Restarting with stat
+2025-10-07 13:56:57,300 [INFO] Application started
+2025-10-07 13:56:57,320 [WARNING]  * Debugger is active!
+2025-10-07 13:56:57,322 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 13:57:08,790 [INFO] Application started
+2025-10-07 13:57:08,815 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 13:57:08,815 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 13:57:08,816 [INFO]  * Restarting with stat
+2025-10-07 13:57:09,274 [INFO] Application started
+2025-10-07 13:57:09,294 [WARNING]  * Debugger is active!
+2025-10-07 13:57:09,297 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 13:57:12,641 [INFO] 127.0.0.1 - - [07/Oct/2025 13:57:12] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2025-10-07 13:57:12,715 [INFO] 127.0.0.1 - - [07/Oct/2025 13:57:12] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 13:57:12,716 [INFO] 127.0.0.1 - - [07/Oct/2025 13:57:12] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 13:57:12,935 [INFO] 127.0.0.1 - - [07/Oct/2025 13:57:12] "GET /registration?__debugger__=yes&cmd=resource&f=console.png&s=F8nFvx3cEMlSFwG1gxda HTTP/1.1" 200 -
+2025-10-07 13:57:34,523 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/app.py', reloading
+2025-10-07 13:57:34,698 [INFO]  * Restarting with stat
+2025-10-07 13:57:35,219 [INFO] Application started
+2025-10-07 13:57:35,236 [WARNING]  * Debugger is active!
+2025-10-07 13:57:35,238 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 13:57:55,399 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/app.py', reloading
+2025-10-07 13:57:55,529 [INFO]  * Restarting with stat
+2025-10-07 13:57:56,036 [INFO] Application started
+2025-10-07 13:57:56,055 [WARNING]  * Debugger is active!
+2025-10-07 13:57:56,058 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 13:58:37,422 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/app.py', reloading
+2025-10-07 13:58:37,606 [INFO]  * Restarting with stat
+2025-10-07 13:58:41,673 [INFO] Application started
+2025-10-07 13:58:41,696 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 13:58:41,697 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 13:58:41,697 [INFO]  * Restarting with stat
+2025-10-07 13:58:42,129 [INFO] Application started
+2025-10-07 13:58:42,147 [WARNING]  * Debugger is active!
+2025-10-07 13:58:42,149 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 13:58:45,345 [INFO] 127.0.0.1 - - [07/Oct/2025 13:58:45] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2025-10-07 13:58:45,406 [INFO] 127.0.0.1 - - [07/Oct/2025 13:58:45] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 13:58:45,415 [INFO] 127.0.0.1 - - [07/Oct/2025 13:58:45] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 13:58:45,529 [INFO] 127.0.0.1 - - [07/Oct/2025 13:58:45] "GET /registration?__debugger__=yes&cmd=resource&f=console.png&s=qjhTd0w8oso9vIwaztmI HTTP/1.1" 200 -
+2025-10-07 13:58:46,818 [INFO] 127.0.0.1 - - [07/Oct/2025 13:58:46] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2025-10-07 13:58:46,844 [INFO] 127.0.0.1 - - [07/Oct/2025 13:58:46] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 13:58:46,848 [INFO] 127.0.0.1 - - [07/Oct/2025 13:58:46] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 13:58:46,963 [INFO] 127.0.0.1 - - [07/Oct/2025 13:58:46] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png&s=qjhTd0w8oso9vIwaztmI HTTP/1.1[0m" 304 -
+2025-10-07 13:59:37,684 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/app.py', reloading
+2025-10-07 13:59:37,809 [INFO]  * Restarting with stat
+2025-10-07 13:59:38,223 [INFO] Application started
+2025-10-07 13:59:38,243 [WARNING]  * Debugger is active!
+2025-10-07 13:59:38,245 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 14:01:23,189 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/app.py', reloading
+2025-10-07 14:01:23,364 [INFO]  * Restarting with stat
+2025-10-07 14:05:08,937 [INFO] Application started
+2025-10-07 14:05:08,960 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 14:05:08,961 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 14:05:08,961 [INFO]  * Restarting with stat
+2025-10-07 14:05:09,397 [INFO] Application started
+2025-10-07 14:05:09,417 [WARNING]  * Debugger is active!
+2025-10-07 14:05:09,419 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 14:05:14,393 [INFO] 127.0.0.1 - - [07/Oct/2025 14:05:14] "GET / HTTP/1.1" 200 -
+2025-10-07 14:05:21,868 [INFO] 127.0.0.1 - - [07/Oct/2025 14:05:21] "[35m[1mGET /registration HTTP/1.1[0m" 500 -
+2025-10-07 14:05:21,918 [INFO] 127.0.0.1 - - [07/Oct/2025 14:05:21] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 14:05:21,919 [INFO] 127.0.0.1 - - [07/Oct/2025 14:05:21] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 14:05:22,009 [INFO] 127.0.0.1 - - [07/Oct/2025 14:05:22] "GET /registration?__debugger__=yes&cmd=resource&f=console.png&s=L4cPS8NUBTiVqdiC84qB HTTP/1.1" 200 -
+2025-10-07 14:05:22,321 [INFO] 127.0.0.1 - - [07/Oct/2025 14:05:22] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-07 14:05:51,863 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/app.py', reloading
+2025-10-07 14:05:51,983 [INFO]  * Restarting with stat
+2025-10-07 14:05:52,514 [INFO] Application started
+2025-10-07 14:05:52,541 [WARNING]  * Debugger is active!
+2025-10-07 14:05:52,544 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 14:05:54,569 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/app.py', reloading
+2025-10-07 14:05:54,744 [INFO]  * Restarting with stat
+2025-10-07 14:05:55,322 [INFO] Application started
+2025-10-07 14:05:55,343 [WARNING]  * Debugger is active!
+2025-10-07 14:05:55,346 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 14:05:55,891 [INFO] 127.0.0.1 - - [07/Oct/2025 14:05:55] "GET /registration HTTP/1.1" 200 -
+2025-10-07 14:06:07,741 [INFO] 127.0.0.1 - - [07/Oct/2025 14:06:07] "[35m[1mPOST /registration HTTP/1.1[0m" 500 -
+2025-10-07 14:06:07,782 [INFO] 127.0.0.1 - - [07/Oct/2025 14:06:07] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 14:06:07,783 [INFO] 127.0.0.1 - - [07/Oct/2025 14:06:07] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 14:06:07,839 [INFO] 127.0.0.1 - - [07/Oct/2025 14:06:07] "GET /registration?__debugger__=yes&cmd=resource&f=console.png&s=ILnb8vDlsdznGLNLz7wu HTTP/1.1" 200 -
+2025-10-07 14:06:08,096 [INFO] 127.0.0.1 - - [07/Oct/2025 14:06:08] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-07 15:16:23,491 [INFO] Application started
+2025-10-07 15:16:23,531 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 15:16:23,531 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 15:16:23,532 [INFO]  * Restarting with stat
+2025-10-07 15:16:24,064 [INFO] Application started
+2025-10-07 15:16:24,082 [WARNING]  * Debugger is active!
+2025-10-07 15:16:24,084 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:16:27,550 [INFO] 127.0.0.1 - - [07/Oct/2025 15:16:27] "GET /registration HTTP/1.1" 200 -
+2025-10-07 15:16:39,594 [INFO] 127.0.0.1 - - [07/Oct/2025 15:16:39] "[35m[1mPOST /registration HTTP/1.1[0m" 500 -
+2025-10-07 15:16:39,634 [INFO] 127.0.0.1 - - [07/Oct/2025 15:16:39] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 15:16:39,634 [INFO] 127.0.0.1 - - [07/Oct/2025 15:16:39] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 15:16:39,710 [INFO] 127.0.0.1 - - [07/Oct/2025 15:16:39] "GET /registration?__debugger__=yes&cmd=resource&f=console.png&s=ZP7xOJ17acyjuMIPiBzT HTTP/1.1" 200 -
+2025-10-07 15:16:39,965 [INFO] 127.0.0.1 - - [07/Oct/2025 15:16:39] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-07 15:17:14,585 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/models.py', reloading
+2025-10-07 15:17:14,729 [INFO]  * Restarting with stat
+2025-10-07 15:17:15,177 [INFO] Application started
+2025-10-07 15:17:15,199 [WARNING]  * Debugger is active!
+2025-10-07 15:17:15,202 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:17:18,998 [INFO] 127.0.0.1 - - [07/Oct/2025 15:17:18] "GET /registration HTTP/1.1" 200 -
+2025-10-07 15:17:31,351 [INFO] 127.0.0.1 - - [07/Oct/2025 15:17:31] "[35m[1mPOST /registration HTTP/1.1[0m" 500 -
+2025-10-07 15:17:31,394 [INFO] 127.0.0.1 - - [07/Oct/2025 15:17:31] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 15:17:31,395 [INFO] 127.0.0.1 - - [07/Oct/2025 15:17:31] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 15:17:31,488 [INFO] 127.0.0.1 - - [07/Oct/2025 15:17:31] "GET /registration?__debugger__=yes&cmd=resource&f=console.png&s=4Xm3IzinjXpc1odqwrAJ HTTP/1.1" 200 -
+2025-10-07 15:17:31,759 [INFO] 127.0.0.1 - - [07/Oct/2025 15:17:31] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-07 15:18:56,154 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/forms.py', reloading
+2025-10-07 15:18:56,285 [INFO]  * Restarting with stat
+2025-10-07 15:18:56,716 [INFO] Application started
+2025-10-07 15:18:56,734 [WARNING]  * Debugger is active!
+2025-10-07 15:18:56,737 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:18:57,751 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/forms.py', reloading
+2025-10-07 15:18:57,856 [INFO]  * Restarting with stat
+2025-10-07 15:18:58,339 [INFO] Application started
+2025-10-07 15:18:58,361 [WARNING]  * Debugger is active!
+2025-10-07 15:18:58,364 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:19:00,407 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/forms.py', reloading
+2025-10-07 15:19:00,535 [INFO]  * Restarting with stat
+2025-10-07 15:19:01,014 [INFO] Application started
+2025-10-07 15:19:01,033 [WARNING]  * Debugger is active!
+2025-10-07 15:19:01,035 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:19:03,058 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/forms.py', reloading
+2025-10-07 15:19:03,183 [INFO]  * Restarting with stat
+2025-10-07 15:19:29,792 [INFO] Application started
+2025-10-07 15:19:29,815 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 15:19:29,815 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 15:19:29,816 [INFO]  * Restarting with stat
+2025-10-07 15:19:30,249 [INFO] Application started
+2025-10-07 15:19:30,267 [WARNING]  * Debugger is active!
+2025-10-07 15:19:30,269 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:19:32,368 [INFO] 127.0.0.1 - - [07/Oct/2025 15:19:32] "GET /registration HTTP/1.1" 200 -
+2025-10-07 15:19:45,097 [INFO] 127.0.0.1 - - [07/Oct/2025 15:19:45] "POST /registration HTTP/1.1" 200 -
+2025-10-07 15:19:58,893 [INFO] 127.0.0.1 - - [07/Oct/2025 15:19:58] "[35m[1mPOST /registration HTTP/1.1[0m" 500 -
+2025-10-07 15:19:58,941 [INFO] 127.0.0.1 - - [07/Oct/2025 15:19:58] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 15:19:58,945 [INFO] 127.0.0.1 - - [07/Oct/2025 15:19:58] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 15:19:59,031 [INFO] 127.0.0.1 - - [07/Oct/2025 15:19:59] "GET /registration?__debugger__=yes&cmd=resource&f=console.png&s=jZbKOpsb4UGGCI1ZtygD HTTP/1.1" 200 -
+2025-10-07 15:19:59,344 [INFO] 127.0.0.1 - - [07/Oct/2025 15:19:59] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-07 15:20:55,423 [INFO] Application started
+2025-10-07 15:20:55,452 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 15:20:55,452 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 15:20:55,453 [INFO]  * Restarting with stat
+2025-10-07 15:20:55,991 [INFO] Application started
+2025-10-07 15:20:56,012 [WARNING]  * Debugger is active!
+2025-10-07 15:20:56,015 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:20:58,748 [INFO] 127.0.0.1 - - [07/Oct/2025 15:20:58] "GET /registration HTTP/1.1" 200 -
+2025-10-07 15:21:09,355 [INFO] 127.0.0.1 - - [07/Oct/2025 15:21:09] "POST /registration HTTP/1.1" 200 -
+2025-10-07 15:21:20,942 [INFO] 127.0.0.1 - - [07/Oct/2025 15:21:20] "[35m[1mPOST /registration HTTP/1.1[0m" 500 -
+2025-10-07 15:21:20,987 [INFO] 127.0.0.1 - - [07/Oct/2025 15:21:20] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 15:21:20,994 [INFO] 127.0.0.1 - - [07/Oct/2025 15:21:20] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 15:21:21,096 [INFO] 127.0.0.1 - - [07/Oct/2025 15:21:21] "GET /registration?__debugger__=yes&cmd=resource&f=console.png&s=H8gCqyeUFk7F2EID3Ah1 HTTP/1.1" 200 -
+2025-10-07 15:21:21,402 [INFO] 127.0.0.1 - - [07/Oct/2025 15:21:21] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-07 15:22:09,633 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/models.py', reloading
+2025-10-07 15:22:09,766 [INFO]  * Restarting with stat
+2025-10-07 15:22:10,198 [INFO] Application started
+2025-10-07 15:22:10,217 [WARNING]  * Debugger is active!
+2025-10-07 15:22:10,219 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:22:13,248 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/models.py', reloading
+2025-10-07 15:22:13,362 [INFO]  * Restarting with stat
+2025-10-07 15:22:13,884 [INFO] Application started
+2025-10-07 15:22:13,918 [WARNING]  * Debugger is active!
+2025-10-07 15:22:13,921 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:22:39,333 [INFO] 127.0.0.1 - - [07/Oct/2025 15:22:39] "GET /registration HTTP/1.1" 200 -
+2025-10-07 15:22:49,998 [INFO] 127.0.0.1 - - [07/Oct/2025 15:22:49] "[35m[1mPOST /registration HTTP/1.1[0m" 500 -
+2025-10-07 15:22:50,034 [INFO] 127.0.0.1 - - [07/Oct/2025 15:22:50] "[36mGET /registration?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 15:22:50,035 [INFO] 127.0.0.1 - - [07/Oct/2025 15:22:50] "[36mGET /registration?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 15:22:50,140 [INFO] 127.0.0.1 - - [07/Oct/2025 15:22:50] "GET /registration?__debugger__=yes&cmd=resource&f=console.png&s=HRCX4stNGELTVCap6HRD HTTP/1.1" 200 -
+2025-10-07 15:22:50,511 [INFO] 127.0.0.1 - - [07/Oct/2025 15:22:50] "[36mGET /registration?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-07 15:23:54,561 [INFO] Application started
+2025-10-07 15:24:52,874 [INFO] Application started
+2025-10-07 15:25:09,394 [INFO] Application started
+2025-10-07 15:25:09,417 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 15:25:09,418 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 15:25:09,418 [INFO]  * Restarting with stat
+2025-10-07 15:25:09,875 [INFO] Application started
+2025-10-07 15:25:09,894 [WARNING]  * Debugger is active!
+2025-10-07 15:25:09,896 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:25:12,075 [INFO] 127.0.0.1 - - [07/Oct/2025 15:25:12] "GET /registration HTTP/1.1" 200 -
+2025-10-07 15:25:24,765 [INFO] New user registered: sina
+2025-10-07 15:25:24,766 [INFO] 127.0.0.1 - - [07/Oct/2025 15:25:24] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2025-10-07 15:25:24,779 [INFO] 127.0.0.1 - - [07/Oct/2025 15:25:24] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-10-07 15:25:24,849 [INFO] 127.0.0.1 - - [07/Oct/2025 15:25:24] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 15:25:24,853 [INFO] 127.0.0.1 - - [07/Oct/2025 15:25:24] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 15:25:24,929 [INFO] 127.0.0.1 - - [07/Oct/2025 15:25:24] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=o30shb2StCDTsIZFSUjM HTTP/1.1" 200 -
+2025-10-07 15:25:25,204 [INFO] 127.0.0.1 - - [07/Oct/2025 15:25:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-07 15:36:17,953 [INFO] 127.0.0.1 - - [07/Oct/2025 15:36:17] "GET /login HTTP/1.1" 200 -
+2025-10-07 15:36:25,417 [INFO] 127.0.0.1 - - [07/Oct/2025 15:36:25] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-10-07 15:36:25,439 [INFO] 127.0.0.1 - - [07/Oct/2025 15:36:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 15:36:25,441 [INFO] 127.0.0.1 - - [07/Oct/2025 15:36:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 15:36:25,570 [INFO] 127.0.0.1 - - [07/Oct/2025 15:36:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=o30shb2StCDTsIZFSUjM HTTP/1.1[0m" 304 -
+2025-10-07 15:36:25,852 [INFO] 127.0.0.1 - - [07/Oct/2025 15:36:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-07 15:37:01,502 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/app.py', reloading
+2025-10-07 15:37:01,642 [INFO]  * Restarting with stat
+2025-10-07 15:37:02,198 [INFO] Application started
+2025-10-07 15:37:02,220 [WARNING]  * Debugger is active!
+2025-10-07 15:37:02,223 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:37:05,257 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/app.py', reloading
+2025-10-07 15:37:05,410 [INFO]  * Restarting with stat
+2025-10-07 15:37:05,908 [INFO] Application started
+2025-10-07 15:37:05,929 [WARNING]  * Debugger is active!
+2025-10-07 15:37:05,932 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:37:10,985 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/app.py', reloading
+2025-10-07 15:37:11,098 [INFO]  * Restarting with stat
+2025-10-07 15:37:11,585 [INFO] Application started
+2025-10-07 15:37:11,608 [WARNING]  * Debugger is active!
+2025-10-07 15:37:11,611 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:37:13,658 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/app.py', reloading
+2025-10-07 15:37:13,780 [INFO]  * Restarting with stat
+2025-10-07 15:37:42,920 [INFO] Application started
+2025-10-07 15:37:42,944 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 15:37:42,944 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 15:37:42,945 [INFO]  * Restarting with stat
+2025-10-07 15:37:43,398 [INFO] Application started
+2025-10-07 15:37:43,416 [WARNING]  * Debugger is active!
+2025-10-07 15:37:43,418 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:37:45,585 [INFO] 127.0.0.1 - - [07/Oct/2025 15:37:45] "GET /login HTTP/1.1" 200 -
+2025-10-07 15:37:49,286 [INFO] 127.0.0.1 - - [07/Oct/2025 15:37:49] "GET /home HTTP/1.1" 200 -
+2025-10-07 15:38:06,890 [INFO] Application started
+2025-10-07 15:38:08,228 [INFO] Connected 200
+2025-10-07 15:38:08,271 [INFO] Added currency: sekee (🪙)
+2025-10-07 15:38:08,287 [INFO] Added currency_info: 1140050000 (2025-10-07 15:32:46)
+2025-10-07 15:38:08,292 [INFO] Added currency: gold-18 (🥇)
+2025-10-07 15:38:08,303 [INFO] Added currency_info: 107940000 (2025-10-07 15:32:46)
+2025-10-07 15:38:08,309 [INFO] Added currency: dollar ($)
+2025-10-07 15:38:08,316 [INFO] Added currency_info: 1130600 (2025-10-07 15:32:48)
+2025-10-07 15:38:08,321 [INFO] Added currency: euro (€)
+2025-10-07 15:38:08,328 [INFO] Added currency_info: 1318800 (2025-10-07 15:32:45)
+2025-10-07 15:38:08,330 [INFO] Sleeping for 30 minutes...
+2025-10-07 15:38:09,653 [INFO] Connected 200
+2025-10-07 15:38:09,663 [INFO] Currency already exists: sekee
+2025-10-07 15:38:09,670 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 15:32:46
+2025-10-07 15:38:09,672 [INFO] Currency already exists: gold-18
+2025-10-07 15:38:09,675 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 15:32:46
+2025-10-07 15:38:09,676 [INFO] Currency already exists: dollar
+2025-10-07 15:38:09,678 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 15:32:48
+2025-10-07 15:38:09,679 [INFO] Currency already exists: euro
+2025-10-07 15:38:09,681 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 15:32:45
+2025-10-07 15:38:09,683 [INFO] Sleeping for 30 minutes...
+2025-10-07 15:38:11,000 [INFO] Connected 200
+2025-10-07 15:38:11,010 [INFO] Currency already exists: sekee
+2025-10-07 15:38:11,016 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 15:32:46
+2025-10-07 15:38:11,019 [INFO] Currency already exists: gold-18
+2025-10-07 15:38:11,026 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 15:32:46
+2025-10-07 15:38:11,029 [INFO] Currency already exists: dollar
+2025-10-07 15:38:11,033 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 15:32:48
+2025-10-07 15:38:11,035 [INFO] Currency already exists: euro
+2025-10-07 15:38:11,038 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 15:32:45
+2025-10-07 15:38:11,040 [INFO] Sleeping for 30 minutes...
+2025-10-07 15:38:12,336 [INFO] Connected 200
+2025-10-07 15:38:12,342 [INFO] Currency already exists: sekee
+2025-10-07 15:38:12,344 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 15:32:46
+2025-10-07 15:38:12,345 [INFO] Currency already exists: gold-18
+2025-10-07 15:38:12,348 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 15:32:46
+2025-10-07 15:38:12,349 [INFO] Currency already exists: dollar
+2025-10-07 15:38:12,351 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 15:32:48
+2025-10-07 15:38:12,353 [INFO] Currency already exists: euro
+2025-10-07 15:38:12,355 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 15:32:45
+2025-10-07 15:38:12,357 [INFO] Sleeping for 30 minutes...
+2025-10-07 15:38:17,793 [INFO] Application started
+2025-10-07 15:38:17,816 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 15:38:17,816 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 15:38:17,817 [INFO]  * Restarting with stat
+2025-10-07 15:38:18,332 [INFO] Application started
+2025-10-07 15:38:18,350 [WARNING]  * Debugger is active!
+2025-10-07 15:38:18,352 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:38:19,894 [INFO] 127.0.0.1 - - [07/Oct/2025 15:38:19] "GET /home HTTP/1.1" 200 -
+2025-10-07 15:38:22,479 [INFO] 127.0.0.1 - - [07/Oct/2025 15:38:22] "GET /registration HTTP/1.1" 200 -
+2025-10-07 15:38:32,974 [INFO] 127.0.0.1 - - [07/Oct/2025 15:38:32] "POST /registration HTTP/1.1" 200 -
+2025-10-07 15:38:53,004 [INFO] New user registered: hamid
+2025-10-07 15:38:53,005 [INFO] 127.0.0.1 - - [07/Oct/2025 15:38:53] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2025-10-07 15:38:53,015 [INFO] 127.0.0.1 - - [07/Oct/2025 15:38:53] "GET /login HTTP/1.1" 200 -
+2025-10-07 15:39:06,184 [INFO] 127.0.0.1 - - [07/Oct/2025 15:39:06] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-10-07 15:39:06,228 [INFO] 127.0.0.1 - - [07/Oct/2025 15:39:06] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 15:39:06,228 [INFO] 127.0.0.1 - - [07/Oct/2025 15:39:06] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 15:39:06,323 [INFO] 127.0.0.1 - - [07/Oct/2025 15:39:06] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=3kjRKAg15XmHIiAinnK0 HTTP/1.1" 200 -
+2025-10-07 15:39:06,563 [INFO] 127.0.0.1 - - [07/Oct/2025 15:39:06] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-07 15:39:56,172 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/models.py', reloading
+2025-10-07 15:39:56,309 [INFO]  * Restarting with stat
+2025-10-07 15:49:27,967 [INFO] Application started
+2025-10-07 15:49:27,991 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 15:49:27,991 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 15:49:27,991 [INFO]  * Restarting with stat
+2025-10-07 15:49:28,445 [INFO] Application started
+2025-10-07 15:49:28,465 [WARNING]  * Debugger is active!
+2025-10-07 15:49:28,467 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 15:49:31,968 [INFO] 127.0.0.1 - - [07/Oct/2025 15:49:31] "GET /login HTTP/1.1" 200 -
+2025-10-07 15:49:38,349 [INFO] User logged in: sina
+2025-10-07 15:49:38,350 [INFO] 127.0.0.1 - - [07/Oct/2025 15:49:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-10-07 15:49:38,367 [INFO] 127.0.0.1 - - [07/Oct/2025 15:49:38] "GET /home HTTP/1.1" 200 -
+2025-10-07 15:52:29,188 [INFO] 127.0.0.1 - - [07/Oct/2025 15:52:29] "GET /home HTTP/1.1" 200 -
+2025-10-07 15:52:31,545 [INFO] 127.0.0.1 - - [07/Oct/2025 15:52:31] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-10-07 15:52:31,558 [INFO] 127.0.0.1 - - [07/Oct/2025 15:52:31] "GET /home HTTP/1.1" 200 -
+2025-10-07 15:52:33,917 [INFO] 127.0.0.1 - - [07/Oct/2025 15:52:33] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-10-07 15:52:33,936 [INFO] 127.0.0.1 - - [07/Oct/2025 15:52:33] "GET /home HTTP/1.1" 200 -
+2025-10-07 15:54:43,991 [INFO] 127.0.0.1 - - [07/Oct/2025 15:54:43] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2025-10-07 15:54:44,040 [INFO] 127.0.0.1 - - [07/Oct/2025 15:54:44] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 15:54:44,050 [INFO] 127.0.0.1 - - [07/Oct/2025 15:54:44] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 15:54:44,118 [INFO] 127.0.0.1 - - [07/Oct/2025 15:54:44] "GET /home?__debugger__=yes&cmd=resource&f=console.png&s=V3JcWaLl2G3YQaPrQtje HTTP/1.1" 200 -
+2025-10-07 15:54:44,427 [INFO] 127.0.0.1 - - [07/Oct/2025 15:54:44] "[36mGET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-07 15:55:40,667 [INFO] 127.0.0.1 - - [07/Oct/2025 15:55:40] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2025-10-07 15:55:40,695 [INFO] 127.0.0.1 - - [07/Oct/2025 15:55:40] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 15:55:40,696 [INFO] 127.0.0.1 - - [07/Oct/2025 15:55:40] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 15:55:40,789 [INFO] 127.0.0.1 - - [07/Oct/2025 15:55:40] "[36mGET /home?__debugger__=yes&cmd=resource&f=console.png&s=V3JcWaLl2G3YQaPrQtje HTTP/1.1[0m" 304 -
+2025-10-07 15:55:42,003 [INFO] 127.0.0.1 - - [07/Oct/2025 15:55:42] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2025-10-07 15:55:42,031 [INFO] 127.0.0.1 - - [07/Oct/2025 15:55:42] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 15:55:42,033 [INFO] 127.0.0.1 - - [07/Oct/2025 15:55:42] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 15:55:42,123 [INFO] 127.0.0.1 - - [07/Oct/2025 15:55:42] "[36mGET /home?__debugger__=yes&cmd=resource&f=console.png&s=V3JcWaLl2G3YQaPrQtje HTTP/1.1[0m" 304 -
+2025-10-07 15:56:36,360 [INFO] 127.0.0.1 - - [07/Oct/2025 15:56:36] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2025-10-07 15:56:36,386 [INFO] 127.0.0.1 - - [07/Oct/2025 15:56:36] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 15:56:36,388 [INFO] 127.0.0.1 - - [07/Oct/2025 15:56:36] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 15:56:36,485 [INFO] 127.0.0.1 - - [07/Oct/2025 15:56:36] "[36mGET /home?__debugger__=yes&cmd=resource&f=console.png&s=V3JcWaLl2G3YQaPrQtje HTTP/1.1[0m" 304 -
+2025-10-07 15:57:28,830 [INFO] 127.0.0.1 - - [07/Oct/2025 15:57:28] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2025-10-07 15:57:28,859 [INFO] 127.0.0.1 - - [07/Oct/2025 15:57:28] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 15:57:28,859 [INFO] 127.0.0.1 - - [07/Oct/2025 15:57:28] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 15:57:28,982 [INFO] 127.0.0.1 - - [07/Oct/2025 15:57:28] "[36mGET /home?__debugger__=yes&cmd=resource&f=console.png&s=V3JcWaLl2G3YQaPrQtje HTTP/1.1[0m" 304 -
+2025-10-07 15:57:30,023 [INFO] 127.0.0.1 - - [07/Oct/2025 15:57:30] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2025-10-07 15:57:30,049 [INFO] 127.0.0.1 - - [07/Oct/2025 15:57:30] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-07 15:57:30,051 [INFO] 127.0.0.1 - - [07/Oct/2025 15:57:30] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-07 15:57:30,142 [INFO] 127.0.0.1 - - [07/Oct/2025 15:57:30] "[36mGET /home?__debugger__=yes&cmd=resource&f=console.png&s=V3JcWaLl2G3YQaPrQtje HTTP/1.1[0m" 304 -
+2025-10-07 15:57:47,496 [INFO] 127.0.0.1 - - [07/Oct/2025 15:57:47] "GET /home HTTP/1.1" 200 -
+2025-10-07 15:57:50,128 [INFO] User logged out: sina
+2025-10-07 15:57:50,131 [INFO] 127.0.0.1 - - [07/Oct/2025 15:57:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-10-07 15:57:50,148 [INFO] 127.0.0.1 - - [07/Oct/2025 15:57:50] "GET /home HTTP/1.1" 200 -
+2025-10-07 15:57:51,876 [INFO] 127.0.0.1 - - [07/Oct/2025 15:57:51] "GET /login HTTP/1.1" 200 -
+2025-10-07 15:59:43,746 [INFO] 127.0.0.1 - - [07/Oct/2025 15:59:43] "GET /login HTTP/1.1" 200 -
+2025-10-07 15:59:48,642 [INFO] 127.0.0.1 - - [07/Oct/2025 15:59:48] "GET /login HTTP/1.1" 200 -
+2025-10-07 15:59:54,629 [INFO] User logged in: sina
+2025-10-07 15:59:54,630 [INFO] 127.0.0.1 - - [07/Oct/2025 15:59:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-10-07 15:59:54,639 [INFO] 127.0.0.1 - - [07/Oct/2025 15:59:54] "GET /home HTTP/1.1" 200 -
+2025-10-07 15:59:57,126 [INFO] User logged out: sina
+2025-10-07 15:59:57,128 [INFO] 127.0.0.1 - - [07/Oct/2025 15:59:57] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-10-07 15:59:57,145 [INFO] 127.0.0.1 - - [07/Oct/2025 15:59:57] "GET /home HTTP/1.1" 200 -
+2025-10-07 16:00:01,542 [INFO] 127.0.0.1 - - [07/Oct/2025 16:00:01] "GET /login HTTP/1.1" 200 -
+2025-10-07 16:00:07,595 [INFO] 127.0.0.1 - - [07/Oct/2025 16:00:07] "POST /login HTTP/1.1" 200 -
+2025-10-07 16:20:32,264 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/email_sender.py', reloading
+2025-10-07 16:20:32,443 [INFO]  * Restarting with stat
+2025-10-07 16:20:33,247 [INFO] Application started
+2025-10-07 16:20:33,272 [WARNING]  * Debugger is active!
+2025-10-07 16:20:33,275 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:20:35,303 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/email_sender.py', reloading
+2025-10-07 16:20:35,432 [INFO]  * Restarting with stat
+2025-10-07 16:20:35,918 [INFO] Application started
+2025-10-07 16:20:35,938 [WARNING]  * Debugger is active!
+2025-10-07 16:20:35,940 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:20:43,013 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/email_sender.py', reloading
+2025-10-07 16:20:43,128 [INFO]  * Restarting with stat
+2025-10-07 16:20:43,691 [INFO] Application started
+2025-10-07 16:20:43,725 [WARNING]  * Debugger is active!
+2025-10-07 16:20:43,728 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:20:46,770 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/email_sender.py', reloading
+2025-10-07 16:20:46,900 [INFO]  * Restarting with stat
+2025-10-07 16:20:47,375 [INFO] Application started
+2025-10-07 16:20:47,394 [WARNING]  * Debugger is active!
+2025-10-07 16:20:47,396 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:20:53,462 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/email_sender.py', reloading
+2025-10-07 16:20:53,579 [INFO]  * Restarting with stat
+2025-10-07 16:20:54,000 [INFO] Application started
+2025-10-07 16:20:54,024 [WARNING]  * Debugger is active!
+2025-10-07 16:20:54,027 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:20:55,047 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/email_sender.py', reloading
+2025-10-07 16:20:55,192 [INFO]  * Restarting with stat
+2025-10-07 16:20:55,627 [INFO] Application started
+2025-10-07 16:20:55,646 [WARNING]  * Debugger is active!
+2025-10-07 16:20:55,648 [INFO]  * Debugger PIN: 507-823-600
