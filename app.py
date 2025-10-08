@@ -5,6 +5,7 @@ from models import Currency, CurrencyInfo, Users
 from flask_login import LoginManager, login_user, current_user, logout_user, login_required ,LoginManager
 from forms import RegistrationForm, LoginForm
 from flask_bcrypt import Bcrypt
+from currency_updater import start_background_thread
 
 # -------------------- Setup --------------------
 app = Flask(__name__)
@@ -120,4 +121,5 @@ if __name__ == "__main__":
     with app.app_context():
         db.create_all()
         print("✅ All tables created successfully.")
+    start_background_thread()
     app.run(debug=True)

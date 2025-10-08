@@ -438,3 +438,323 @@
 2025-10-07 16:20:55,627 [INFO] Application started
 2025-10-07 16:20:55,646 [WARNING]  * Debugger is active!
 2025-10-07 16:20:55,648 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:55:04,183 [INFO] Application started
+2025-10-07 16:55:04,222 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 16:55:04,222 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 16:55:04,223 [INFO]  * Restarting with stat
+2025-10-07 16:55:04,757 [INFO] Application started
+2025-10-07 16:55:04,777 [WARNING]  * Debugger is active!
+2025-10-07 16:55:04,781 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:55:21,307 [INFO] 127.0.0.1 - - [07/Oct/2025 16:55:21] "GET / HTTP/1.1" 200 -
+2025-10-07 16:57:35,167 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:57:35,336 [INFO]  * Restarting with stat
+2025-10-07 16:57:36,166 [INFO] Application started
+2025-10-07 16:57:36,196 [WARNING]  * Debugger is active!
+2025-10-07 16:57:36,199 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:57:39,239 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:57:39,473 [INFO]  * Restarting with stat
+2025-10-07 16:57:40,417 [INFO] Application started
+2025-10-07 16:57:40,451 [WARNING]  * Debugger is active!
+2025-10-07 16:57:40,455 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:57:42,504 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:57:42,635 [INFO]  * Restarting with stat
+2025-10-07 16:57:43,167 [INFO] Application started
+2025-10-07 16:57:43,187 [WARNING]  * Debugger is active!
+2025-10-07 16:57:43,190 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:57:46,228 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:57:46,368 [INFO]  * Restarting with stat
+2025-10-07 16:57:46,877 [INFO] Application started
+2025-10-07 16:57:46,900 [WARNING]  * Debugger is active!
+2025-10-07 16:57:46,902 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:57:49,951 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:57:50,073 [INFO]  * Restarting with stat
+2025-10-07 16:57:50,516 [INFO] Application started
+2025-10-07 16:57:50,537 [WARNING]  * Debugger is active!
+2025-10-07 16:57:50,540 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:57:52,575 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:57:52,696 [INFO]  * Restarting with stat
+2025-10-07 16:57:53,233 [INFO] Application started
+2025-10-07 16:57:53,258 [WARNING]  * Debugger is active!
+2025-10-07 16:57:53,260 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:57:55,286 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:57:55,420 [INFO]  * Restarting with stat
+2025-10-07 16:57:55,887 [INFO] Application started
+2025-10-07 16:57:55,906 [WARNING]  * Debugger is active!
+2025-10-07 16:57:55,909 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:58:01,959 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:58:02,076 [INFO]  * Restarting with stat
+2025-10-07 16:58:02,768 [INFO] Application started
+2025-10-07 16:58:02,792 [WARNING]  * Debugger is active!
+2025-10-07 16:58:02,795 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:58:03,815 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:58:04,036 [INFO]  * Restarting with stat
+2025-10-07 16:58:04,531 [INFO] Application started
+2025-10-07 16:58:04,552 [WARNING]  * Debugger is active!
+2025-10-07 16:58:04,554 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:58:08,606 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:58:08,744 [INFO]  * Restarting with stat
+2025-10-07 16:58:09,227 [INFO] Application started
+2025-10-07 16:58:09,256 [WARNING]  * Debugger is active!
+2025-10-07 16:58:09,259 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:58:11,295 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:58:11,445 [INFO]  * Restarting with stat
+2025-10-07 16:58:11,902 [INFO] Application started
+2025-10-07 16:58:11,921 [WARNING]  * Debugger is active!
+2025-10-07 16:58:11,923 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:58:13,944 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:58:14,087 [INFO]  * Restarting with stat
+2025-10-07 16:58:14,560 [INFO] Application started
+2025-10-07 16:58:14,579 [WARNING]  * Debugger is active!
+2025-10-07 16:58:14,581 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:58:18,628 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:58:18,757 [INFO]  * Restarting with stat
+2025-10-07 16:58:19,276 [INFO] Application started
+2025-10-07 16:58:19,310 [WARNING]  * Debugger is active!
+2025-10-07 16:58:19,313 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:58:20,333 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:58:20,466 [INFO]  * Restarting with stat
+2025-10-07 16:58:21,178 [INFO] Application started
+2025-10-07 16:58:21,205 [WARNING]  * Debugger is active!
+2025-10-07 16:58:21,207 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:58:23,242 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:58:23,372 [INFO]  * Restarting with stat
+2025-10-07 16:58:23,824 [INFO] Application started
+2025-10-07 16:58:23,846 [WARNING]  * Debugger is active!
+2025-10-07 16:58:23,849 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:58:25,879 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:58:26,033 [INFO]  * Restarting with stat
+2025-10-07 16:58:26,534 [INFO] Application started
+2025-10-07 16:58:26,553 [WARNING]  * Debugger is active!
+2025-10-07 16:58:26,555 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:58:33,622 [INFO]  * Detected change in '/home/Cna/Desktop/Code/Python/Currency_project/main.py', reloading
+2025-10-07 16:58:33,751 [INFO]  * Restarting with stat
+2025-10-07 16:58:34,229 [INFO] Application started
+2025-10-07 16:58:34,254 [WARNING]  * Debugger is active!
+2025-10-07 16:58:34,257 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 16:58:53,036 [INFO] Application started
+2025-10-07 16:58:54,412 [INFO] Connected 200
+2025-10-07 16:58:54,434 [INFO] Currency already exists: sekee
+2025-10-07 16:58:54,450 [INFO] Added currency_info: 1140100000 (2025-10-07 16:32:37)
+2025-10-07 16:58:54,452 [INFO] Currency already exists: gold-18
+2025-10-07 16:58:54,459 [INFO] Added currency_info: 108480000 (2025-10-07 16:32:38)
+2025-10-07 16:58:54,461 [INFO] Currency already exists: dollar
+2025-10-07 16:58:54,469 [INFO] Added currency_info: 1136400 (2025-10-07 16:32:37)
+2025-10-07 16:58:54,471 [INFO] Currency already exists: euro
+2025-10-07 16:58:54,479 [INFO] Added currency_info: 1326400 (2025-10-07 16:32:36)
+2025-10-07 16:58:54,481 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:58:55,774 [INFO] Connected 200
+2025-10-07 16:58:55,789 [INFO] Currency already exists: sekee
+2025-10-07 16:58:55,795 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:58:55,797 [INFO] Currency already exists: gold-18
+2025-10-07 16:58:55,800 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:58:55,802 [INFO] Currency already exists: dollar
+2025-10-07 16:58:55,805 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:58:55,806 [INFO] Currency already exists: euro
+2025-10-07 16:58:55,809 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:58:55,811 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:58:57,128 [INFO] Connected 200
+2025-10-07 16:58:57,133 [INFO] Currency already exists: sekee
+2025-10-07 16:58:57,136 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:58:57,138 [INFO] Currency already exists: gold-18
+2025-10-07 16:58:57,142 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:58:57,144 [INFO] Currency already exists: dollar
+2025-10-07 16:58:57,147 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:58:57,149 [INFO] Currency already exists: euro
+2025-10-07 16:58:57,153 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:58:57,156 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:58:58,488 [INFO] Connected 200
+2025-10-07 16:58:58,491 [INFO] Currency already exists: sekee
+2025-10-07 16:58:58,493 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:58:58,494 [INFO] Currency already exists: gold-18
+2025-10-07 16:58:58,496 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:58:58,497 [INFO] Currency already exists: dollar
+2025-10-07 16:58:58,498 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:58:58,500 [INFO] Currency already exists: euro
+2025-10-07 16:58:58,502 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:58:58,504 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:58:59,939 [INFO] Connected 200
+2025-10-07 16:58:59,949 [INFO] Currency already exists: sekee
+2025-10-07 16:58:59,955 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:58:59,959 [INFO] Currency already exists: gold-18
+2025-10-07 16:58:59,965 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:58:59,968 [INFO] Currency already exists: dollar
+2025-10-07 16:58:59,975 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:58:59,977 [INFO] Currency already exists: euro
+2025-10-07 16:58:59,980 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:58:59,982 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:01,272 [INFO] Connected 200
+2025-10-07 16:59:01,277 [INFO] Currency already exists: sekee
+2025-10-07 16:59:01,279 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:01,280 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:01,281 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:01,282 [INFO] Currency already exists: dollar
+2025-10-07 16:59:01,285 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:01,286 [INFO] Currency already exists: euro
+2025-10-07 16:59:01,288 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:01,290 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:02,604 [INFO] Connected 200
+2025-10-07 16:59:02,613 [INFO] Currency already exists: sekee
+2025-10-07 16:59:02,619 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:02,622 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:02,629 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:02,632 [INFO] Currency already exists: dollar
+2025-10-07 16:59:02,638 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:02,641 [INFO] Currency already exists: euro
+2025-10-07 16:59:02,645 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:02,647 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:03,932 [INFO] Connected 200
+2025-10-07 16:59:03,936 [INFO] Currency already exists: sekee
+2025-10-07 16:59:03,938 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:03,940 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:03,942 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:03,943 [INFO] Currency already exists: dollar
+2025-10-07 16:59:03,945 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:03,946 [INFO] Currency already exists: euro
+2025-10-07 16:59:03,948 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:03,950 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:05,282 [INFO] Connected 200
+2025-10-07 16:59:05,291 [INFO] Currency already exists: sekee
+2025-10-07 16:59:05,297 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:05,300 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:05,306 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:05,310 [INFO] Currency already exists: dollar
+2025-10-07 16:59:05,316 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:05,318 [INFO] Currency already exists: euro
+2025-10-07 16:59:05,322 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:05,324 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:06,668 [INFO] Connected 200
+2025-10-07 16:59:06,677 [INFO] Currency already exists: sekee
+2025-10-07 16:59:06,683 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:06,687 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:06,694 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:06,698 [INFO] Currency already exists: dollar
+2025-10-07 16:59:06,703 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:06,706 [INFO] Currency already exists: euro
+2025-10-07 16:59:06,710 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:06,712 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:08,052 [INFO] Connected 200
+2025-10-07 16:59:08,056 [INFO] Currency already exists: sekee
+2025-10-07 16:59:08,057 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:08,058 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:08,061 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:08,063 [INFO] Currency already exists: dollar
+2025-10-07 16:59:08,065 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:08,067 [INFO] Currency already exists: euro
+2025-10-07 16:59:08,069 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:08,071 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:09,382 [INFO] Connected 200
+2025-10-07 16:59:09,387 [INFO] Currency already exists: sekee
+2025-10-07 16:59:09,390 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:09,392 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:09,394 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:09,395 [INFO] Currency already exists: dollar
+2025-10-07 16:59:09,397 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:09,399 [INFO] Currency already exists: euro
+2025-10-07 16:59:09,401 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:09,402 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:10,690 [INFO] Connected 200
+2025-10-07 16:59:10,694 [INFO] Currency already exists: sekee
+2025-10-07 16:59:10,696 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:10,696 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:10,698 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:10,700 [INFO] Currency already exists: dollar
+2025-10-07 16:59:10,702 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:10,703 [INFO] Currency already exists: euro
+2025-10-07 16:59:10,705 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:10,707 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:44,637 [INFO] Application started
+2025-10-07 16:59:44,952 [INFO] Connected 200
+2025-10-07 16:59:45,008 [INFO] Currency already exists: sekee
+2025-10-07 16:59:45,020 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:45,023 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:45,030 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:45,034 [INFO] Currency already exists: dollar
+2025-10-07 16:59:45,041 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:45,044 [INFO] Currency already exists: euro
+2025-10-07 16:59:45,051 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:45,066 [INFO] Added currency: bitcoin (₿)
+2025-10-07 16:59:45,082 [INFO] Added currency_info: 142428112000 (2025-10-07 16:32:10)
+2025-10-07 16:59:45,087 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:46,399 [INFO] Connected 200
+2025-10-07 16:59:46,412 [INFO] Currency already exists: sekee
+2025-10-07 16:59:46,418 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:46,421 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:46,428 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:46,431 [INFO] Currency already exists: dollar
+2025-10-07 16:59:46,435 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:46,437 [INFO] Currency already exists: euro
+2025-10-07 16:59:46,440 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:46,441 [INFO] Currency already exists: bitcoin
+2025-10-07 16:59:46,443 [INFO] Skipping duplicate currency_info for currency_id 5 at 2025-10-07 16:32:10
+2025-10-07 16:59:46,445 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:47,781 [INFO] Connected 200
+2025-10-07 16:59:47,795 [INFO] Currency already exists: sekee
+2025-10-07 16:59:47,802 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:47,804 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:47,808 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:47,810 [INFO] Currency already exists: dollar
+2025-10-07 16:59:47,813 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:47,814 [INFO] Currency already exists: euro
+2025-10-07 16:59:47,817 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:47,818 [INFO] Currency already exists: bitcoin
+2025-10-07 16:59:47,821 [INFO] Skipping duplicate currency_info for currency_id 5 at 2025-10-07 16:32:10
+2025-10-07 16:59:47,823 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:49,148 [INFO] Connected 200
+2025-10-07 16:59:49,160 [INFO] Currency already exists: sekee
+2025-10-07 16:59:49,169 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:49,173 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:49,180 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:49,184 [INFO] Currency already exists: dollar
+2025-10-07 16:59:49,191 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:49,195 [INFO] Currency already exists: euro
+2025-10-07 16:59:49,202 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:49,206 [INFO] Currency already exists: bitcoin
+2025-10-07 16:59:49,214 [INFO] Skipping duplicate currency_info for currency_id 5 at 2025-10-07 16:32:10
+2025-10-07 16:59:49,220 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:50,553 [INFO] Connected 200
+2025-10-07 16:59:50,562 [INFO] Currency already exists: sekee
+2025-10-07 16:59:50,567 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:50,571 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:50,578 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:50,582 [INFO] Currency already exists: dollar
+2025-10-07 16:59:50,589 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:50,592 [INFO] Currency already exists: euro
+2025-10-07 16:59:50,598 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:50,600 [INFO] Currency already exists: bitcoin
+2025-10-07 16:59:50,603 [INFO] Skipping duplicate currency_info for currency_id 5 at 2025-10-07 16:32:10
+2025-10-07 16:59:50,606 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:51,893 [INFO] Connected 200
+2025-10-07 16:59:51,898 [INFO] Currency already exists: sekee
+2025-10-07 16:59:51,902 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:51,904 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:51,907 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:51,908 [INFO] Currency already exists: dollar
+2025-10-07 16:59:51,910 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:51,911 [INFO] Currency already exists: euro
+2025-10-07 16:59:51,913 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:51,915 [INFO] Currency already exists: bitcoin
+2025-10-07 16:59:51,918 [INFO] Skipping duplicate currency_info for currency_id 5 at 2025-10-07 16:32:10
+2025-10-07 16:59:51,920 [INFO] Sleeping for 30 minutes...
+2025-10-07 16:59:53,238 [INFO] Connected 200
+2025-10-07 16:59:53,243 [INFO] Currency already exists: sekee
+2025-10-07 16:59:53,247 [INFO] Skipping duplicate currency_info for currency_id 1 at 2025-10-07 16:32:37
+2025-10-07 16:59:53,250 [INFO] Currency already exists: gold-18
+2025-10-07 16:59:53,253 [INFO] Skipping duplicate currency_info for currency_id 2 at 2025-10-07 16:32:38
+2025-10-07 16:59:53,254 [INFO] Currency already exists: dollar
+2025-10-07 16:59:53,257 [INFO] Skipping duplicate currency_info for currency_id 3 at 2025-10-07 16:32:37
+2025-10-07 16:59:53,258 [INFO] Currency already exists: euro
+2025-10-07 16:59:53,261 [INFO] Skipping duplicate currency_info for currency_id 4 at 2025-10-07 16:32:36
+2025-10-07 16:59:53,263 [INFO] Currency already exists: bitcoin
+2025-10-07 16:59:53,266 [INFO] Skipping duplicate currency_info for currency_id 5 at 2025-10-07 16:32:10
+2025-10-07 16:59:53,268 [INFO] Sleeping for 30 minutes...
+2025-10-07 17:01:05,611 [INFO] Application started
+2025-10-07 17:01:05,644 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-07 17:01:05,645 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-07 17:01:05,646 [INFO]  * Restarting with stat
+2025-10-07 17:01:06,149 [INFO] Application started
+2025-10-07 17:01:06,168 [WARNING]  * Debugger is active!
+2025-10-07 17:01:06,170 [INFO]  * Debugger PIN: 507-823-600
+2025-10-07 17:01:10,825 [INFO] 127.0.0.1 - - [07/Oct/2025 17:01:10] "GET / HTTP/1.1" 200 -
+2025-10-07 17:27:25,231 [INFO] Application started
