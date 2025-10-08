@@ -1,5 +1,5 @@
 import logging
-from flask import Flask, render_template, redirect, flash, url_for, request
+from flask import Flask, render_template, redirect, flash, url_for, request ,jsonify
 from database import db
 from models import Currency, CurrencyInfo, Users
 from flask_login import LoginManager, login_user, current_user, logout_user, login_required ,LoginManager
@@ -115,6 +115,59 @@ def logout():
     logout_user()
     flash("You have been logged out.", "info")
     return redirect(url_for('home'))
+
+
+@app.route('/currency/<string:name>')
+def currency_page(name):
+    currency = Currency.query.filter_by(name=name).first_or_404()
+    return render_template('currency.html', currency=currency)
+
+
+@app.route('/api/currency/<string:name>')
+def currency_data(name):
+    currency = Currency.query.filter_by(name=name).first_or_404()
+    infos = currency.infos.order_by(CurrencyInfo.current_time.desc()).limit(100).all()
+    infos.reverse()  
+
+    return jsonify({
+        "labels": [info.current_time.strftime("%Y-%m-%d %H:%M:%S") for info in infos],
+        "prices": [info.price for info in infos],
+        "h_prices": [info.h_price for info in infos],
+        "l_prices": [info.l_price for info in infos],
+        "d_prices": [info.d_price for info in infos],
+    })
+
+@app.route('/api/currency/<string:name>/ohlc')
+def currency_ohlc(name):
+
+    currency = Currency.query.filter_by(name=name).first_or_404()
+    infos = currency.infos.order_by(CurrencyInfo.current_time.asc()).all()
+
+    ohlc_dict = {}
+    for info in infos:
+        hour = info.current_time.replace(minute=0, second=0, microsecond=0)
+        if hour not in ohlc_dict:
+            ohlc_dict[hour] = {
+                "open": info.price,
+                "high": info.h_price,
+                "low": info.l_price,
+                "close": info.price
+            }
+        else:
+            ohlc_dict[hour]["high"] = max(ohlc_dict[hour]["high"], info.h_price)
+            ohlc_dict[hour]["low"] = min(ohlc_dict[hour]["low"], info.l_price)
+            ohlc_dict[hour]["close"] = info.price
+
+    ohlc_list = [
+        {"x": k.strftime("%Y-%m-%d %H:%M:%S"),
+         "o": v["open"],
+         "h": v["high"],
+         "l": v["low"],
+         "c": v["close"]}
+        for k, v in sorted(ohlc_dict.items())
+    ]
+    return jsonify(ohlc_list)
+
 
 # -------------------- Run --------------------
 if __name__ == "__main__":

@@ -33,8 +33,12 @@ class CurrencyInfo(db.Model):
     id = db.Column(db.Integer, primary_key=True, unique=True, nullable=False)
     currency_id = db.Column(db.Integer, db.ForeignKey("currency.id"), nullable=False)
     price = db.Column(db.BigInteger, nullable=False)
+    h_price = db.Column(db.BigInteger, nullable=False)
+    l_price = db.Column(db.BigInteger, nullable=False)
+    d_price = db.Column(db.BigInteger, nullable=False)
     change_rate = db.Column(db.Float)
     update_time = db.Column(db.DateTime, default=datetime.utcnow)
+    current_time = db.Column(db.DateTime , default= datetime.utcnow)
     source = db.Column(db.String(50), default='www.tgju.org')
 
     def __repr__(self):

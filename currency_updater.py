@@ -21,7 +21,7 @@ name_map = {
 
 
 def update_currencies():
-    # Import app *inside* the function to avoid circular import
+   
     from app import app
 
     with app.app_context():
@@ -40,8 +40,12 @@ def update_currencies():
                     if key in current:
                         item = current[key]
                         price = int(item['p'].replace(',', ''))
+                        h_price = int(item['h'].replace(',', ''))
+                        l_price = int(item['l'].replace(',', ''))
+                        d_price = int(item['d'].replace(',', ''))
                         time_str = item['ts']
                         change = item['dp']
+
 
                         info = name_map.get(key, {"name": key, "symbol": ""})
                         name, symbol = info["name"], info["symbol"]
@@ -53,27 +57,28 @@ def update_currencies():
                             db.session.commit()
 
                         currency = Currency.query.filter_by(name=name).first()
-                        latest = CurrencyInfo.query.filter_by(currency_id=currency.id) \
-                            .order_by(CurrencyInfo.update_time.desc()).first()
+                        # latest = CurrencyInfo.query.filter_by(currency_id=currency.id) \
+                        #     .order_by(CurrencyInfo.update_time.desc()).first()
 
                         try:
                             t = datetime.fromisoformat(time_str)
                         except Exception:
                             t = datetime.utcnow()
 
-                        if latest and latest.update_time == t:
-                            continue
+                        # if latest and latest.update_time == t:
+                        #     continue
 
-                        info = CurrencyInfo(currency_id=currency.id, price=price,
-                                            update_time=t, change_rate=change,
-                                            source='www.tgju.org')
+                        info = CurrencyInfo(currency_id=currency.id ,
+                                             price=price,h_price = h_price,l_price = l_price,d_price = d_price ,
+                                            update_time=t, current_time = datetime.now() , 
+                                            change_rate=change ,source='www.tgju.org')
                         db.session.add(info)
                         db.session.commit()
 
                         print(f"{name}: {price}{symbol}")
 
-                logging.info("Sleeping for 30 minutes...")
-                time.sleep(1)
+                logging.info("Sleeping for 1 minute...")
+                time.sleep(60)
 
             except Exception as e:
                 logging.error(f"Error in currency updater: {e}")
