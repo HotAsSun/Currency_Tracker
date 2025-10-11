@@ -55,6 +55,11 @@
                         <a class="nav-link" href="{{ url_for('registration') }}">Register</a>
                     </li>
                     {% endif %}
+                    {% if current_user.is_authenticated and current_user.is_admin %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Add Table</a>
+                    </li>
+                    {% endif %}
                 </ul>
             </div>
         </div>

@@ -1,146 +1,153 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ currency.name }} Chart</title>
+{% extends "layout.html" %}
+{% block content %}
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ currency.name }} Chart</title>
 
-    <!-- Chart.js for Line Chart -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <!-- Chart.js for Line Chart -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-    <!-- Lightweight Charts for Candlestick -->
-    <script src="https://unpkg.com/lightweight-charts@4.1.0/dist/lightweight-charts.standalone.production.js"></script>
+        <!-- Lightweight Charts for Candlestick -->
+        <script src="https://unpkg.com/lightweight-charts@4.1.0/dist/lightweight-charts.standalone.production.js"></script>
 
-    <style>
-        body {
-            background-color: #121212;
-            color: white;
-            font-family: Arial, sans-serif;
-        }
-        .chart-container {
-            width: 90%;
-            margin: 30px auto;
-        }
-        #lineChart, #candleChart {
-            width: 100%;
-            height: 450px;
-        }
-        .title {
-            text-align: center;
-            margin-bottom: 20px;
-            color: #00FF88;
-        }
-    </style>
-</head>
-<body>
-
-    <h1 class="title">{{ currency.name }} — {{ currency.symbol }}</h1>
-
-    <div class="chart-container">
-        <h3>📈 Price Line Chart</h3>
-        <canvas id="lineChart"></canvas>
-    </div>
-
-    <div class="chart-container">
-        <h3>🕯️ Candlestick Chart</h3>
-        <div id="candleChart"></div>
-    </div>
-
-    <script>
-        const currencyName = "{{ currency.name }}";
-        let lineChart = null;
-        let candleSeries = null;
-        let candleChart = null;
-
-        // ---------------- Load Line Chart ----------------
-        async function loadLineChart() {
-            const res = await fetch(`/api/currency/${currencyName}`);
-            const data = await res.json();
-            const ctx = document.getElementById('lineChart').getContext('2d');
-
-            if (lineChart) {
-                // Update data only if already created
-                lineChart.data.labels = data.labels;
-                lineChart.data.datasets[0].data = data.prices;
-                lineChart.update();
-                return;
+        <style>
+            body {
+                background-color: #121212;
+                color: white;
+                font-family: Arial, sans-serif;
             }
+            .chart-container {
+                width: 90%;
+                margin: 30px auto;
+            }
+            #lineChart, #candleChart {
+                width: 100%;
+                height: 450px;
+            }
+            .title {
+                text-align: center;
+                margin-bottom: 20px;
+                color: #00FF88;
+            }
+        </style>
+    </head>
+    <body>
 
-            // Create chart for the first time
-            lineChart = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: data.labels,
-                    datasets: [{
-                        label: 'Price',
-                        data: data.prices,
-                        borderColor: '#00FF88',
-                        tension: 0.3,
-                        fill: false
-                    }]
-                },
-                options: {
-                    scales: {
-                        x: { ticks: { color: 'white' } },
-                        y: { ticks: { color: 'white' } }
-                    },
-                    plugins: {
-                        legend: { labels: { color: 'white' } }
-                    }
+        <h1 class="title">{{ currency.name }} — {{ currency.symbol }}</h1>
+
+        <div class="chart-container">
+            <h3>📈 Price Line Chart</h3>
+            <canvas id="lineChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h3>🕯️ Candlestick Chart</h3>
+            <div id="candleChart"></div>
+        </div>
+
+            <script>
+            const currencyName = "{{ currency.name }}";
+            let lineChart = null;
+            let candleSeries = null;
+            let candleChart = null;
+            
+            // ---------------- Load Line Chart ----------------
+            async function loadLineChart() {
+                const res = await fetch(`/api/currency/${currencyName}`);
+                const data = await res.json();
+                const ctx = document.getElementById('lineChart').getContext('2d');
+            
+                if (lineChart) {
+                    lineChart.data.labels = data.labels;
+                    lineChart.data.datasets[0].data = data.prices;
+                    lineChart.update();
+                    return;
                 }
-            });
-        }
-
-        // ---------------- Load Candlestick Chart ----------------
-        async function loadCandleChart() {
-            const res = await fetch(`/api/currency/${currencyName}/ohlc`);
-            const data = await res.json();
-            const formattedData = data.map(item => ({
-                time: item.x,
-                open: item.o,
-                high: item.h,
-                low: item.l,
-                close: item.c
-            }));
-
-            if (!candleChart) {
-                const chartElement = document.getElementById('candleChart');
-                candleChart = LightweightCharts.createChart(chartElement, {
-                    layout: {
-                        background: { color: '#121212' },
-                        textColor: '#DDD'
+            
+                lineChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: data.labels,
+                        datasets: [{
+                            label: 'Price',
+                            data: data.prices,
+                            borderColor: '#00FF88',
+                            tension: 0.3,
+                            fill: false
+                        }]
                     },
-                    grid: {
-                        vertLines: { color: '#1E222D' },
-                        horzLines: { color: '#1E222D' }
-                    },
-                    timeScale: { borderColor: '#485c7b' }
-                });
-
-                candleSeries = candleChart.addCandlestickSeries({
-                    upColor: '#26a69a',
-                    borderUpColor: '#26a69a',
-                    wickUpColor: '#26a69a',
-                    downColor: '#ef5350',
-                    borderDownColor: '#ef5350',
-                    wickDownColor: '#ef5350',
+                    options: {
+                        scales: {
+                            x: { ticks: { color: 'white' } },
+                            y: { ticks: { color: 'white' } }
+                        },
+                        plugins: {
+                            legend: { labels: { color: 'white' } }
+                        }
+                    }
                 });
             }
-
-            candleSeries.setData(formattedData);
-        }
-
-        // ---------------- Initial Load ----------------
-        loadLineChart();
-        loadCandleChart();
-
-        // ---------------- Auto-Refresh Every 1 Minute ----------------
-        setInterval(() => {
-            console.log("🔄 Refreshing charts...");
+        
+            // ---------------- Load Candlestick Chart ----------------
+            async function loadCandleChart() {
+                const res = await fetch(`/api/currency/${currencyName}/ohlc`);
+                const data = await res.json();
+                const formattedData = data.map(item => ({
+                    time: item.x,
+                    open: item.o,
+                    high: item.h,
+                    low: item.l,
+                    close: item.c
+                }));
+            
+                if (!candleChart) {
+                    const chartElement = document.getElementById('candleChart');
+                    candleChart = LightweightCharts.createChart(chartElement, {
+                        layout: {
+                            background: { color: '#121212' },
+                            textColor: '#DDD'
+                        },
+                        grid: {
+                            vertLines: { color: '#1E222D' },
+                            horzLines: { color: '#1E222D' }
+                        },
+                        timeScale: { borderColor: '#485c7b' }
+                    });
+                
+                    candleSeries = candleChart.addCandlestickSeries({
+                        upColor: '#26a69a',
+                        borderUpColor: '#26a69a',
+                        wickUpColor: '#26a69a',
+                        downColor: '#ef5350',
+                        borderDownColor: '#ef5350',
+                        wickDownColor: '#ef5350',
+                    });
+                }
+            
+                candleSeries.setData(formattedData);
+            }
+        
+            // ---------------- Initial Load ----------------
             loadLineChart();
             loadCandleChart();
-        }, 1000); // 60,000 ms = 1 minute
+        
+            // ---------------- Auto-Refresh ----------------
+            // Refresh line chart every 1 second
+            setInterval(() => {
+                console.log("🔄 Refreshing line chart...");
+                loadLineChart();
+            }, 1000);
+        
+            // Refresh candle chart every 5 minutes
+            setInterval(() => {
+                console.log("🕔 Refreshing candlestick chart (every 5 min)...");
+                loadCandleChart();
+            }, 5 * 60 * 1000); // 5 minutes = 300000 ms
+        </script>
 
-    </script>
+    </body>
+    </html>
 
-</body>
-</html>
+{% endblock content %}

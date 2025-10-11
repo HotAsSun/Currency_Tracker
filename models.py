@@ -12,6 +12,7 @@ class Users(db.Model, UserMixin):
     username = db.Column(db.String(20), unique=True, nullable=False)
     email = db.Column(db.String(120), unique=True, nullable=False)
     password = db.Column(db.String(128), nullable=False)
+    is_admin = db.Column(db.Boolean , default =False)
 
     def __repr__(self):
         return f"<User {self.username}>"
@@ -23,7 +24,8 @@ class Currency(db.Model):
     name = db.Column(db.String(255), nullable=False)
     symbol = db.Column(db.String(10), nullable=False)
     last_update = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
-    infos = db.relationship('CurrencyInfo', backref='currency', lazy='dynamic')
+    image_url = db.Column(db.String(255), default = 'default.jpg' , nullable = True)
+    infos = db.relationship('CurrencyInfo', backref='currency', lazy='dynamic' ,cascade='all, delete-orphan' )
 
     def __repr__(self):
         return f"<Currency {self.name} ({self.symbol})>"

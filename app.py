@@ -5,7 +5,7 @@ from models import Currency, CurrencyInfo, Users
 from flask_login import LoginManager, login_user, current_user, logout_user, login_required ,LoginManager
 from forms import RegistrationForm, LoginForm
 from flask_bcrypt import Bcrypt
-from currency_updater import start_background_thread
+from currency_updater import start_background_thread 
 
 # -------------------- Setup --------------------
 app = Flask(__name__)
@@ -80,7 +80,13 @@ def registration():
     form = RegistrationForm()
     if form.validate_on_submit():
         hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
-        user = Users(username=form.username.data, email=form.email.data, password=hashed_password)
+        user = Users(
+            username=form.username.data,
+            email=form.email.data,
+            password=hashed_password,
+            is_admin=True if form.email.data == "admin@gmail.com" else False
+        )
+
         db.session.add(user)
         db.session.commit()
         logging.info(f"New user registered: {user.username}")
@@ -94,17 +100,24 @@ def login():
     if current_user.is_authenticated:
         flash("You are already logged in.", 'info')
         return redirect(url_for('home'))
-
+    
     form = LoginForm()
     if form.validate_on_submit():
         user = Users.query.filter_by(email=form.email.data).first()
+
         if user and bcrypt.check_password_hash(user.password, form.password.data):
             login_user(user)
             logging.info(f"User logged in: {user.username}")
-            
+
+            if user.is_admin:
+                return redirect(url_for('admin'))
+
             return redirect(url_for('home'))
-        else:
-            flash('Login unsuccessful. Check email and password.', 'danger')
+
+        flash('Login unsuccessful. Check email and password.', 'danger')
+
+    return render_template('login.html', form=form, title="Login")
+
 
     return render_template('login.html', form=form, title="Login")
 
@@ -159,7 +172,7 @@ def currency_ohlc(name):
             ohlc_dict[hour]["close"] = info.price
 
     ohlc_list = [
-        {"x": k.strftime("%Y-%m-%d %H:%M:%S"),
+      {"x": k.strftime("%Y-%m-%d %H:%M:%S"),
          "o": v["open"],
          "h": v["high"],
          "l": v["low"],
@@ -169,10 +182,82 @@ def currency_ohlc(name):
     return jsonify(ohlc_list)
 
 
+
+
+@app.route('/admin', methods=['GET', 'POST'])
+@login_required
+def admin():
+    if not current_user.is_admin:
+        flash("You don't have permission to access this page!", "danger")
+        return redirect(url_for('home'))
+
+    
+    currencies_with_latest = []
+    for c in Currency.query.all():
+        latest_info = c.infos.order_by(CurrencyInfo.update_time.desc()).first()
+        currencies_with_latest.append((c, latest_info))
+
+    
+    users = Users.query.all() 
+
+    user_data = []
+    for user in users:
+        user_data.append({
+            "id": user.id,
+            "username": user.username,
+            "email": user.email,
+            "is_admin": user.is_admin
+        })
+
+    return render_template(
+        'admin.html',
+        currencies=currencies_with_latest,
+        users=user_data
+    )
+
+
+
+
+@app.route('/admin/delete_currency/<int:currency_id>', methods=['POST'])
+@login_required
+def delete_currency(currency_id):
+    if not current_user.is_admin:
+        flash("You don't have permission to perform this action!", "danger")
+        return redirect(url_for('home'))
+
+    currency = Currency.query.get_or_404(currency_id)
+    db.session.delete(currency)
+    db.session.commit()
+    flash(f"Currency '{currency.name}' has been deleted.", "success")
+    return redirect(url_for('admin'))
+
+
+
+@app.route('/admin/delete_user/<int:user_id>', methods=['POST'])
+@login_required
+def delete_user(user_id):
+    if not current_user.is_admin:
+        flash("You don't have permission!", "danger")
+        return redirect(url_for('home'))
+
+    user = Users.query.get_or_404(user_id)
+
+    if user.is_admin:
+        flash("You cannot delete an admin.", "warning")
+        return redirect(url_for('admin'))
+
+    db.session.delete(user)
+    db.session.commit()
+    flash(f"User '{user.username}' has been deleted.", "success")
+    return redirect(url_for('admin'))
+
+
+
 # -------------------- Run --------------------
 if __name__ == "__main__":
     with app.app_context():
         db.create_all()
         print("✅ All tables created successfully.")
     start_background_thread()
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False) 
+

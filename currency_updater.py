@@ -2,7 +2,7 @@ import threading
 import requests
 import logging
 import time
-from datetime import datetime
+from datetime import datetime , timedelta
 from models import Currency, CurrencyInfo
 from database import db
 
@@ -34,7 +34,11 @@ def update_currencies():
                 data = response.json()
                 current = data.get('current', {})
 
+
                 keys = ['sekee', 'tgju_gold_irg18', 'price_dollar_rl', 'price_eur', "crypto-bitcoin-irr"]
+                # saving all the keys in list 
+
+                current_keys = current.keys()
 
                 for key in keys:
                     if key in current:
@@ -52,27 +56,33 @@ def update_currencies():
 
                         existing = Currency.query.filter_by(name=name).first()
                         if not existing:
-                            currency = Currency(name=name, symbol=symbol)
+                            currency = Currency(name=name, symbol=symbol,image_url = f"static/{name}.jpg")
                             db.session.add(currency)
                             db.session.commit()
 
                         currency = Currency.query.filter_by(name=name).first()
-                        # latest = CurrencyInfo.query.filter_by(currency_id=currency.id) \
-                        #     .order_by(CurrencyInfo.update_time.desc()).first()
+                        
+                        minute_key = datetime.now().replace(second=0, microsecond=0)
+                        exists = CurrencyInfo.query.filter_by(currency_id=currency.id).filter(
+                            CurrencyInfo.current_time.between(minute_key, minute_key + timedelta(seconds=59))
+                        ).first()
 
-                        try:
-                            t = datetime.fromisoformat(time_str)
-                        except Exception:
-                            t = datetime.utcnow()
+                        if exists:
+                            continue  # Skip duplicate
 
-                        # if latest and latest.update_time == t:
-                        #     continue
-
-                        info = CurrencyInfo(currency_id=currency.id ,
-                                             price=price,h_price = h_price,l_price = l_price,d_price = d_price ,
-                                            update_time=t, current_time = datetime.now() , 
-                                            change_rate=change ,source='www.tgju.org')
-                        db.session.add(info)
+                        # Insert new currency info
+                        info_entry = CurrencyInfo(
+                            currency_id=currency.id,
+                            price=price,
+                            h_price=h_price,
+                            l_price=l_price,
+                            d_price=d_price,
+                            update_time=time_str,
+                            current_time=datetime.now(),
+                            change_rate=change,
+                            source='www.tgju.org'
+                        )
+                        db.session.add(info_entry)
                         db.session.commit()
 
                         print(f"{name}: {price}{symbol}")
@@ -83,6 +93,7 @@ def update_currencies():
             except Exception as e:
                 logging.error(f"Error in currency updater: {e}")
                 time.sleep(60)
+
 
 
 def start_background_thread():
